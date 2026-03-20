@@ -63,7 +63,7 @@
 
   <div class="posts">
     {{ range after 1 $pages }}
-    <a href="{{ with .Params.linkedin }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="post reveal" {{ with .Params.linkedin }}target="_blank"{{ end }}>
+    <a href="{{ .Permalink }}" class="post reveal">
       <div class="post-date">{{ .Date.Format "Jan 2006" }}</div>
       <div>
         <div class="post-title">{{ .Title }}</div>
