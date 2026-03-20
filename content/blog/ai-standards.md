@@ -3,7 +3,7 @@ title: "AI Weekly #3: The Week AI Got Standards"
 date: 2025-12-15
 description: "AI got its first real standards this week. What that means in practice."
 tags: ["ai-weekly", "regulation", "iso"]
-linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7407731680549171200/"
+linkedin: "https://www.linkedin.com/pulse/week-ai-got-standards-marcin-kucharski-x4zyf"
 ---
 
 Standardization is happening faster than anyone expected.
