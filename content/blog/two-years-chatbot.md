@@ -1,9 +1,9 @@
 ---
 title: "Two years ago, building a production chatbot meant months of work."
-date: 2025-11-20
-description: "What changed, and why the speed advantage compounds over time."
-tags: ["ai-adoption", "ai-tools"]
-linkedin: "https://www.linkedin.com/in/makucharski"
+date: 2025-11-12
+description: "Two years ago this took months. Now it takes a weekend. What happened."
+tags: ["dev-speed", "ai-tools", "before-after"]
+linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7381960574244573184/"
 ---
 
 What changed, and why the speed advantage compounds over time.
