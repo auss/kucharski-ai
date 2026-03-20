@@ -3,7 +3,7 @@ title: "AI Weekly #4: The $28 Billion Week"
 date: 2026-01-10
 description: "Where the money is actually going this week."
 tags: ["ai-weekly", "big-money", "consolidation"]
-linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7410227901201252352/"
+linkedin: "https://www.linkedin.com/pulse/why-your-2026-ai-roadmap-just-hit-physical-wall-marcin-kucharski-93uxf"
 ---
 
 The consolidation has already begun.
