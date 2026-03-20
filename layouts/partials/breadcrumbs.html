@@ -1,0 +1,22 @@
+{{- if not .IsHome }}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1">
+    </li>
+    {{- if eq .Section "blog" }}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/blog/"><span itemprop="name">Writing</span></a>
+      <meta itemprop="position" content="2">
+    </li>
+    {{- if .IsPage }}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ .Title }}</span>
+      <meta itemprop="position" content="3">
+    </li>
+    {{- end }}
+    {{- end }}
+  </ol>
+</nav>
+{{- end }}
