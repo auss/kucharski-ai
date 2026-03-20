@@ -1,9 +1,9 @@
 ---
 title: "Your team is using ChatGPT right now. Do you know about it?"
-date: 2025-12-10
+date: 2025-12-02
 description: "Shadow AI is the new shadow IT. Have you given them a safe way to do it?"
-tags: ["ai-governance", "leadership"]
-linkedin: "https://www.linkedin.com/in/makucharski"
+tags: ["shadow-ai", "governance", "eng-leadership"]
+linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7401893020406620161/"
 ---
 
 Shadow AI is the new shadow IT. Have you given them a safe way to do it?
