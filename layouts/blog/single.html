@@ -20,13 +20,17 @@
 </section>
 
 {{ $pages := where .Site.RegularPages "Section" "blog" }}
-{{ $currentIndex := 0 }}
+{{ $currentIndex := -1 }}
 {{ range $i, $p := $pages }}
   {{ if eq $p.Permalink $.Permalink }}{{ $currentIndex = $i }}{{ end }}
 {{ end }}
+{{ if ge $currentIndex 0 }}
 <nav class="post-nav" aria-label="Post navigation">
-  {{ with (index $pages (add $currentIndex 1)) }}
+  {{ $nextIndex := add $currentIndex 1 }}
+  {{ if lt $nextIndex (len $pages) }}
+  {{ with (index $pages $nextIndex) }}
   <a href="{{ .Permalink }}" class="post-nav-link post-nav-prev">← {{ .Title }}</a>
+  {{ end }}
   {{ end }}
   {{ if gt $currentIndex 0 }}
   {{ with (index $pages (sub $currentIndex 1)) }}
@@ -34,5 +38,6 @@
   {{ end }}
   {{ end }}
 </nav>
+{{ end }}
 
 {{ end }}
