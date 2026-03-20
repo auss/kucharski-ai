@@ -1,9 +1,9 @@
 ---
-title: "Week 3 of AI Weekly: The Week AI Got Standards"
-date: 2025-09-21
-description: "Standardization is happening faster than anyone expected."
-tags: ["ai-weekly", "governance"]
-linkedin: "https://www.linkedin.com/in/makucharski"
+title: "AI Weekly #3: The Week AI Got Standards"
+date: 2025-12-15
+description: "AI got its first real standards this week. What that means in practice."
+tags: ["ai-weekly", "regulation", "iso"]
+linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7407731680549171200/"
 ---
 
 Standardization is happening faster than anyone expected.
