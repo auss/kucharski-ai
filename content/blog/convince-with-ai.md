@@ -1,9 +1,9 @@
 ---
 title: "The longer I work with AI, the more convinced I am..."
-date: 2025-09-28
-description: "That the real competitive advantage isn't the tool — it's knowing what to ask it."
-tags: ["ai-adoption", "philosophy"]
-linkedin: "https://www.linkedin.com/in/makucharski"
+date: 2025-10-28
+description: "The tool is the easy part. Knowing what to ask is the hard part."
+tags: ["prompting", "competitive-edge", "mindset"]
+linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7379047446024376320/"
 ---
 
 That the real competitive advantage isn't the tool — it's knowing what to ask it.
