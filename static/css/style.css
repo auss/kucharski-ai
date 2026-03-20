@@ -604,6 +604,38 @@ button:focus-visible,
 }
 .breadcrumbs a:hover { color: var(--accent); }
 
+/* POST FEATURED IMAGE */
+.post-featured-image {
+  max-width: var(--max-w);
+  margin: 0 auto 2rem;
+  padding: 0 2rem;
+}
+.post-featured-image img {
+  width: 100%;
+  height: auto;
+  border: 1px dashed var(--border-dash);
+  border-radius: 2px;
+}
+
+/* POST LINKEDIN LINK */
+.post-linkedin-link {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 1.5rem 2rem 0;
+}
+.post-linkedin-link a {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  transition: color 0.2s;
+  border-bottom: 1px dashed var(--border-dash);
+  padding-bottom: 2px;
+}
+.post-linkedin-link a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* POST NAVIGATION */
 .post-nav {
   max-width: var(--max-w);
