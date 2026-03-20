@@ -1,7 +1,6 @@
 baseURL = 'https://kucharski.ai/'
 languageCode = 'en'
 title = 'Marcin Kucharski'
-theme = ''
 
 [params]
   description = "A geek with ADHD who'd love to work with AI until 2 AM — but is too old for that."
