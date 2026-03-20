@@ -46,7 +46,7 @@
 
   {{ $pages := where .Site.RegularPages "Section" "blog" }}
   {{ range first 1 $pages }}
-  <a href="{{ .Permalink }}" class="featured reveal">
+  <a href="{{ with .Params.linkedin }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="featured reveal" {{ with .Params.linkedin }}target="_blank"{{ end }}>
     <div class="featured-badge">Latest</div>
     <div class="featured-date">{{ .Date.Format "Jan 2006" }}</div>
     <div class="featured-title">{{ .Title }}</div>
@@ -63,7 +63,7 @@
 
   <div class="posts">
     {{ range after 1 $pages }}
-    <a href="{{ .Permalink }}" class="post reveal">
+    <a href="{{ with .Params.linkedin }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="post reveal" {{ with .Params.linkedin }}target="_blank"{{ end }}>
       <div class="post-date">{{ .Date.Format "Jan 2006" }}</div>
       <div>
         <div class="post-title">{{ .Title }}</div>
@@ -87,15 +87,11 @@
     <div class="section-line"></div>
   </div>
   <div class="now-updated reveal">// last updated: march 2026</div>
-  {{ with .Site.GetPage "/now" }}
   <ul class="now-list">
-    {{ range split .Content "<li>" }}
-      {{ if strings.Contains . "</li>" }}
-      <li class="now-item reveal">{{ . | safeHTML }}</li>
-      {{ end }}
-    {{ end }}
+    <li class="now-item reveal">Engineering Manager at <strong>NFQ Technologies</strong></li>
+    <li class="now-item reveal">Building a personal AI assistant system <em>— multi-agent orchestration with Claude, Gemini, and Codex</em></li>
+    <li class="now-item reveal">Writing about AI adoption and engineering leadership</li>
   </ul>
-  {{ end }}
 </section>
 
 <section class="section" id="contact">
