@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }} — {{ .Site.Title }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Archivo+Black&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="{{ .Site.Title }}">
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">kucharski<span>.</span>ai</a>
+  <div class="nav-links">
+    <a href="/#writing">Writing</a>
+    <a href="/#now">Now</a>
+    <a href="/#contact">Say hi</a>
+  </div>
+</nav>
+
+{{ block "main" . }}{{ end }}
+
+<footer>
+  <p>© 2026 · Kraków, Poland</p>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/makucharski">LinkedIn</a>
+    <a href="/index.xml">RSS</a>
+  </div>
+</footer>
+
+<script>
+  // Staggered reveal on scroll
+  const els = document.querySelectorAll('.reveal');
+  let delay = 0;
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        delay += 60;
+        setTimeout(() => e.target.classList.add('vis'), delay);
+        obs.unobserve(e.target);
+      }
+    });
+    delay = 0;
+  }, { threshold: 0.01, rootMargin: '0px 0px 0px 0px' });
+  els.forEach(el => obs.observe(el));
+
+  // Fallback: if after 1.5s some reveals still hidden, show them
+  setTimeout(() => {
+    document.querySelectorAll('.reveal:not(.vis)').forEach(el => el.classList.add('vis'));
+  }, 1500);
+</script>
+
+</body>
+</html>
