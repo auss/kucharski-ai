@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ partial "breadcrumbs.html" . }}
+
 <section class="post-header">
   <a href="/" class="post-back-link">← Back to all posts</a>
   <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
@@ -16,5 +18,21 @@
 <section class="post-single-content post-content">
   {{ .Content }}
 </section>
+
+{{ $pages := where .Site.RegularPages "Section" "blog" }}
+{{ $currentIndex := 0 }}
+{{ range $i, $p := $pages }}
+  {{ if eq $p.Permalink $.Permalink }}{{ $currentIndex = $i }}{{ end }}
+{{ end }}
+<nav class="post-nav" aria-label="Post navigation">
+  {{ with (index $pages (add $currentIndex 1)) }}
+  <a href="{{ .Permalink }}" class="post-nav-link post-nav-prev">← {{ .Title }}</a>
+  {{ end }}
+  {{ if gt $currentIndex 0 }}
+  {{ with (index $pages (sub $currentIndex 1)) }}
+  <a href="{{ .Permalink }}" class="post-nav-link post-nav-next">{{ .Title }} →</a>
+  {{ end }}
+  {{ end }}
+</nav>
 
 {{ end }}
