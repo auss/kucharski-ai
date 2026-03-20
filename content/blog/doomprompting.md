@@ -1,9 +1,9 @@
 ---
 title: "Doomprompting: How I Traded One Addiction for Another"
-date: 2025-07-04
+date: 2026-02-04
 description: "When productivity tools become productivity traps."
-tags: ["adhd", "personal", "ai-adoption"]
-linkedin: "https://www.linkedin.com/in/makucharski"
+tags: ["adhd", "ai-addiction", "self-awareness"]
+linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7424723521341329408/"
 ---
 
 When productivity tools become productivity traps.
