@@ -12,7 +12,7 @@ title = 'Marcin Kucharski'
   tag = "tags"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML"]
 
 [markup.goldmark.renderer]
   unsafe = true
