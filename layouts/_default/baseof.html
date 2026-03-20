@@ -25,12 +25,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav>
+<a href="#main-content" class="skip-to-content">Skip to content</a>
+
+<nav aria-label="Main navigation">
   <a href="/" class="logo">kucharski<span>.</span>ai</a>
   <div class="nav-links">
-    <a href="/#writing">Writing</a>
-    <a href="/#now">Now</a>
-    <a href="/#contact">Say hi</a>
+    <a href="/#writing"{{ if eq .RelPermalink "/#writing" }} aria-current="page"{{ end }}>Writing</a>
+    <a href="/#now"{{ if eq .RelPermalink "/#now" }} aria-current="page"{{ end }}>Now</a>
+    <a href="/#contact"{{ if eq .RelPermalink "/#contact" }} aria-current="page"{{ end }}>Say hi</a>
   </div>
 </nav>
 
