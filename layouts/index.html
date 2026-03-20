@@ -1,0 +1,114 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-label anim d1">marcin@kucharski.ai <span class="cursor"></span></div>
+  <h1 class="anim d2">
+    Geek with ADHD.<br>
+    <span class="strike">Too old for 2 AM.</span><br>
+    Still building.
+  </h1>
+  <p class="hero-tagline anim d3">
+    A geek with ADHD who'd love to work with AI until 2 AM — but is too old for that. So I build during reasonable hours and write about what I discover.
+  </p>
+  <p class="hero-bio anim d4">
+    <strong>18 years in tech.</strong> Wrote code, co-founded a company, scaled teams across countries. Then AI pulled me back into the code. Now I build multi-agent systems, help orgs figure out AI adoption beyond the demo, and share what actually works.
+  </p>
+</section>
+
+<div class="ticker-wrap anim d5">
+  <div class="ticker">
+    <span class="ticker-item"><span class="ticker-sep">//</span> Engineering Leadership</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> AI Adoption</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Multi-Agent Systems</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Team Building</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Certified Coach</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Python & n8n</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> AI Governance</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> ADHD in Tech</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Kraków PL</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Engineering Leadership</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> AI Adoption</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Multi-Agent Systems</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Team Building</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Certified Coach</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Python & n8n</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> AI Governance</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> ADHD in Tech</span>
+    <span class="ticker-item"><span class="ticker-sep">//</span> Kraków PL</span>
+  </div>
+</div>
+
+<section class="section" id="writing">
+  <div class="section-head reveal">
+    <div class="section-title">Writing</div>
+    <div class="section-line"></div>
+  </div>
+
+  {{ $pages := where .Site.RegularPages "Section" "blog" }}
+  {{ range first 1 $pages }}
+  <a href="{{ .Permalink }}" class="featured reveal">
+    <div class="featured-badge">Latest</div>
+    <div class="featured-date">{{ .Date.Format "Jan 2006" }}</div>
+    <div class="featured-title">{{ .Title }}</div>
+    <div class="featured-excerpt">{{ .Params.description }}</div>
+    {{ if .Params.tags }}
+    <div class="featured-tags">
+      {{ range .Params.tags }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+  </a>
+  {{ end }}
+
+  <div class="posts">
+    {{ range after 1 $pages }}
+    <a href="{{ .Permalink }}" class="post reveal">
+      <div class="post-date">{{ .Date.Format "Jan 2006" }}</div>
+      <div>
+        <div class="post-title">{{ .Title }}</div>
+        <div class="post-excerpt">{{ .Params.description }}</div>
+        {{ if .Params.tags }}
+        <div class="post-tags">
+          {{ range .Params.tags }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section" id="now">
+  <div class="section-head reveal">
+    <div class="section-title">Now</div>
+    <div class="section-line"></div>
+  </div>
+  <div class="now-updated reveal">// last updated: march 2026</div>
+  {{ with .Site.GetPage "/now" }}
+  <ul class="now-list">
+    {{ range split .Content "<li>" }}
+      {{ if strings.Contains . "</li>" }}
+      <li class="now-item reveal">{{ . | safeHTML }}</li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  {{ end }}
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <div class="section-title">Say hi</div>
+    <div class="section-line"></div>
+  </div>
+  <p class="contact-quote reveal">Building with AI? Figuring out what's real and what's theatre?</p>
+  <p class="contact-subtext reveal">I've been in both situations. Happy to compare notes.</p>
+  <div class="contact-btns reveal">
+    <a href="mailto:marcin@kucharski.email" class="btn">→ Get in touch</a>
+    <a href="https://linkedin.com/in/makucharski" class="btn btn-ghost" target="_blank">→ LinkedIn</a>
+  </div>
+</section>
+
+{{ end }}
