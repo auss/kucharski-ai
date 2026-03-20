@@ -8,9 +8,6 @@ title = 'Marcin Kucharski'
   email = "hello@kucharski.ai"
   linkedin = "https://linkedin.com/in/makucharski"
 
-[taxonomies]
-  tag = "tags"
-
 [outputs]
   home = ["HTML"]
 
