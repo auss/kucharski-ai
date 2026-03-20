@@ -1,9 +1,9 @@
 ---
 title: "In September 2025, Chinese hackers used Claude AI to break into 30 companies."
-date: 2025-09-10
-description: "The proof that AI security is now a priority."
-tags: ["security", "ai-risk"]
-linkedin: "https://www.linkedin.com/in/makucharski"
+date: 2025-12-05
+description: "They used Claude to automate the break-ins. 30 companies in one run."
+tags: ["ai-security", "cyberattack", "wake-up-call"]
+linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7402602678062800897/"
 ---
 
 The proof that AI security is now a priority.
