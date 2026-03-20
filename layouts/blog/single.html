@@ -15,9 +15,21 @@
   {{ end }}
 </section>
 
+{{ with .Params.image }}
+<div class="post-featured-image">
+  <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+</div>
+{{ end }}
+
 <section class="post-single-content post-content">
   {{ .Content }}
 </section>
+
+{{ with .Params.linkedin }}
+<div class="post-linkedin-link">
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer">→ Originally published on LinkedIn</a>
+</div>
+{{ end }}
 
 {{ $pages := where .Site.RegularPages "Section" "blog" }}
 {{ $currentIndex := -1 }}
