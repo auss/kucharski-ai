@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="section-head reveal">
+    <div class="section-title">Tags</div>
+    <div class="section-line"></div>
+  </div>
+
+  <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+    {{ range .Site.Taxonomies.tags }}
+    <a href="{{ .Page.Permalink }}" class="tag" style="display: inline-block;">{{ .Page.Title }} ({{ .Count }})</a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
