@@ -46,7 +46,7 @@
 
   {{ $pages := where .Site.RegularPages "Section" "blog" }}
   {{ range first 1 $pages }}
-  <a href="{{ with .Params.linkedin }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="featured reveal" {{ with .Params.linkedin }}target="_blank"{{ end }}>
+  <a href="{{ .Permalink }}" class="featured reveal">
     <div class="featured-badge">Latest</div>
     <div class="featured-date">{{ .Date.Format "Jan 2006" }}</div>
     <div class="featured-title">{{ .Title }}</div>
