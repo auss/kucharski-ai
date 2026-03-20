@@ -1,6 +1,7 @@
 baseURL = 'https://kucharski.ai/'
 languageCode = 'en'
 title = 'Marcin Kucharski'
+enableRobotsTXT = true
 
 [params]
   description = "A geek with ADHD who'd love to work with AI until 2 AM — but is too old for that."
@@ -9,7 +10,11 @@ title = 'Marcin Kucharski'
   linkedin = "https://linkedin.com/in/makucharski"
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
 
 [markup.goldmark.renderer]
   unsafe = true
