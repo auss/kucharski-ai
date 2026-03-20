@@ -1,0 +1,19 @@
+baseURL = 'https://kucharski.ai/'
+languageCode = 'en'
+title = 'Marcin Kucharski'
+theme = ''
+
+[params]
+  description = "A geek with ADHD who'd love to work with AI until 2 AM — but is too old for that."
+  author = "Marcin Kucharski"
+  email = "marcin@kucharski.email"
+  linkedin = "https://linkedin.com/in/makucharski"
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+  unsafe = true
