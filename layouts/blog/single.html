@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<section class="post-header">
+  <a href="/" class="post-back-link">← Back to all posts</a>
+  <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+  <h1 class="post-single-title">{{ .Title }}</h1>
+  {{ if .Params.tags }}
+  <div class="post-single-tags">
+    {{ range .Params.tags }}
+    <span class="tag">{{ . }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+
+<section class="post-single-content post-content">
+  {{ .Content }}
+</section>
+
+{{ end }}
