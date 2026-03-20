@@ -43,7 +43,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer>
   <p>© 2026 · Kraków, Poland</p>
   <div class="footer-links">
-    <a href="https://linkedin.com/in/makucharski" target="_blank">LinkedIn</a>
+    <a href="https://linkedin.com/in/makucharski" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    {{ if .Site.RSSLink }}<a href="{{ .Site.RSSLink }}" aria-label="RSS Feed">RSS</a>{{ end }}
   </div>
 </footer>
 
