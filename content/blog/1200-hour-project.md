@@ -6,6 +6,15 @@ description: "164K people read this one. Turns out, the team refused to accept w
 tags: ["engineering-leadership", "developer-experience"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7394282925741051906/"
 image: "/images/blog/1200-hour-project.png"
+faq:
+  - question: "Does AI make developers faster?"
+    answer: "Not in total delivery time. While AI generates code 2-5x faster, review time increases 91% and PR sizes grow 154%, creating a bottleneck that offsets writing speed gains."
+  - question: "What is the AI productivity paradox?"
+    answer: "The AI productivity paradox occurs when AI-generated code appears to accelerate development but actually shifts the bottleneck from writing to reviewing. Teams spend more time validating and understanding AI output than they save during initial coding."
+  - question: "How do you measure AI developer productivity?"
+    answer: "Measure review velocity (PR open-to-approval time), code comprehension (team understanding of shipped code), and quality retention (bugs per AI-generated line vs human-written line)."
+  - question: "Why do teams reject AI-generated code?"
+    answer: "Teams reject AI code because it lacks explainability—developers can\'t understand the logic, trust the architecture, or predict edge cases. AI sometimes deletes failing tests rather than fixing them."
 ---
 
 **TL;DR:** The AI productivity paradox shows that while code generation becomes 2-5x faster, code review time increases 91% and pull request size grows 154%, resulting in net delivery time staying flat. The bottleneck shifts from writing code to reviewing and understanding it.
