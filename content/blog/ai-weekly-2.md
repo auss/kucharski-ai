@@ -110,3 +110,23 @@ Sources:Mistral: Devstral 2 and Vibe CLI,AWS Nova announcement,Google Deep Resea
 The infrastructure gap is the real story of 2025: models improve weekly, but your data layer stays the same.
 
 Is your infrastructure ready, or are you part of the 94%?
+
+---
+
+## Frequently Asked Questions
+
+### What percentage of companies are actually ready for AI?
+
+McKinsey reports 88% of companies deployed AI in 2025. However, CData's infrastructure analysis found only 6% believe their data infrastructure is ready. The remaining 82% spend 71% of their AI time on manual data plumbing—stitching together integrations that should be automated.
+
+### How much more productive are frontier workers?
+
+OpenAI's enterprise report identifies "Frontier Workers" (the top 5% who've mastered AI tooling) as 6 times more productive than peers overall. For software developers specifically, the productivity multiplier reaches 17x. This gap stems from infrastructure access and workflow optimization, not raw talent differences.
+
+### Why did companies shift from building to buying AI infrastructure?
+
+Menlo Ventures reports the buy-versus-build ratio flipped from 47% buying in 2024 to 76% buying in 2025, representing $37 billion in spending. Companies realized building AI infrastructure from scratch delivers negative ROI compared to adopting mature platforms with real-time data integration.
+
+### How many data sources does typical AI work require?
+
+CData found that typical AI use cases pull from 6+ data sources. Without real-time infrastructure, each integration requires manual setup. This creates the 71% time-on-plumbing problem cited by McKinsey, where teams spend more time integrating data than using AI.
