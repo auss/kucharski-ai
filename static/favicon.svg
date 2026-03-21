@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#0e0e0e"/>
-  <text x="8" y="48" font-family="Arial Black, sans-serif" font-weight="900" font-size="42" fill="#c8ff00">K.</text>
+  <rect width="64" height="64" fill="#0e0e0e"/>
+  <text x="6" y="52" font-family="monospace" font-weight="700" font-size="48" fill="#c8ff00">MK</text>
+  <line x1="0" y1="60" x2="64" y2="60" stroke="#c8ff00" stroke-width="3" stroke-dasharray="4,3"/>
 </svg>
