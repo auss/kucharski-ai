@@ -6,7 +6,18 @@ description: "AI got its first real standards this week. What that means in prac
 tags: ["ai-weekly", "ai-strategy"]
 linkedin: "https://www.linkedin.com/pulse/week-ai-got-standards-marcin-kucharski-x4zyf"
 image: "/images/blog/ai-standards.png"
+faq:
+  - question: "What is the Model Context Protocol (MCP)?"
+    answer: "MCP is an open standard for integrating AI models with data sources. It eliminates rebuilding custom connectors for each provider-database combination, enabling any compatible model to access integrated data once."
+  - question: "How does model routing reduce AI costs?"
+    answer: "Model routing matches task economics to pricing: Gemini Flash ($3/M tokens) for volume work, Claude ($25/M tokens) for production code, GPT-5.2 ($168/M tokens) for mission-critical reasoning. This 56x price spread creates significant savings when routing appropriately."
+  - question: "Why are standards critical for avoiding vendor lock-in?"
+    answer: "Standards like MCP make your data infrastructure portable across providers. However, you still need prompt abstraction layers, evaluation frameworks, and governance processes to achieve true vendor independence."
+  - question: "What is the AGENTS.md standard?"
+    answer: "AGENTS.md gives autonomous coding agents instant understanding of project structure, enabling them to navigate codebases, understand patterns, and make informed architectural decisions without manual context setup."
 ---
+
+**TL;DR:** Three major AI standards (MCP, AGENTS.md, Goose framework) finally give enterprises vendor flexibility. Model routing becomes mandatory as pricing diverges 56x between frontier models. Technical implementation now determines competitive advantage.
 
 Three years after ChatGPT launched, the AI industry finally got standards.
 
