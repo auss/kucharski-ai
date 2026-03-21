@@ -14,7 +14,7 @@ I spent the last week digging through infrastructure and security reports, and h
 
 As tech leaders, we usually live in the software layer: we talk about prompts, agents, and custom workflows. But recent moves by the industry giants made one thing painfully clear: the software party is now being dictated by the people pouring the concrete and buying the silicon.
 
-Over$27 billionin capital moved in just two deals this week. It’s a brutal reminder that if you are planning a large-scale AI rollout for 2026, the physical foundation of your strategy just shifted.
+Over $27 billion in capital moved in just two deals this week. It’s a brutal reminder that if you are planning a large-scale AI rollout for 2026, the physical foundation of your strategy just shifted.
 
 ![](/images/blog/ai-weekly-4_inline_1.png)
 
