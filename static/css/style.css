@@ -656,6 +656,139 @@ button:focus-visible,
 .post-nav-link:hover { color: var(--accent); }
 .post-nav-next { text-align: right; margin-left: auto; }
 
+/* 404 PAGE */
+.error-page {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+.error-label {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 8rem;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+.error-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.8rem;
+  color: var(--text-bright);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+.error-text {
+  color: var(--text-dim);
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+}
+.error-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* TAG PAGES */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.tag-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px dashed var(--border-dash);
+  transition: all 0.2s;
+}
+.tag-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+.tag-count {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+/* NOW CONTENT (from markdown) */
+.now-content p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  border-left: 2px dashed var(--border-dash);
+  margin-bottom: 0.3rem;
+}
+.now-content strong {
+  color: var(--accent);
+}
+.now-content em {
+  color: var(--text-dim);
+  font-style: italic;
+}
+.now-back {
+  margin-top: 2rem;
+}
+
+/* NEWSLETTER SIGNUP */
+.newsletter {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  border: 1px dashed var(--border-dash);
+  text-align: center;
+}
+.newsletter-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.1rem;
+  color: var(--text-bright);
+  margin-bottom: 0.5rem;
+}
+.newsletter-text {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-bottom: 1.2rem;
+}
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  max-width: 420px;
+  margin: 0 auto;
+}
+.newsletter-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.82rem;
+}
+.newsletter-input::placeholder {
+  color: var(--text-dim);
+}
+.newsletter-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+.newsletter-btn {
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: var(--bg);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.newsletter-btn:hover {
+  opacity: 0.85;
+}
+
 /* RESPONSIVE */
 @media (max-width: 640px) {
   .hero { padding: 3.5rem 1.5rem 2.5rem; }
