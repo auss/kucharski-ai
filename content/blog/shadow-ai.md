@@ -6,6 +6,15 @@ description: "Shadow AI is the new shadow IT. Have you given them a safe way to 
 tags: ["ai-adoption", "engineering-leadership"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7401893020406620161/"
 image: "/images/blog/shadow-ai.png"
+faq:
+  - question: "What is shadow AI?"
+    answer: "Shadow AI refers to employees using AI tools like ChatGPT, Claude, or Copilot without explicit organizational approval. It exists because companies restrict AI access rather than establishing governance frameworks, pushing adoption into the shadows."
+  - question: "How can you detect shadow AI in your organization?"
+    answer: "Monitor API usage through your network, survey developers anonymously about tools they use, check browser history patterns, and track suspicious increases in productivity without corresponding code changes."
+  - question: "Should companies ban ChatGPT at work?"
+    answer: "No. Banning drives adoption underground and increases security risk. Instead, companies should establish clear policies defining which use cases are approved, what data cannot be used, and what governance checkpoints exist."
+  - question: "How can you create an AI usage policy that works?"
+    answer: "Define three tiers: approved tools with data guardrails, restricted contexts (no customer data, no credentials), and explicit escalation for novel use cases. Make the policy enable productivity while managing risk."
 ---
 
 **TL;DR:** Shadow AI is unauthorized AI tool usage in enterprise teams that exists because organizations try to ban rather than govern AI adoption. Engineering leaders should create safe adoption frameworks, governance structures, and explicit permission models instead of driving adoption underground.
