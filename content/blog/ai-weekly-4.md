@@ -28,7 +28,7 @@ The Strategic Deep Dive:
 
 Why did Nvidia do this? Because they know their vulnerability.
 
-GPUs (like the H100) are unparalleled forTraining—crunching massive datasets in parallel. But forInference(running the model for users), they are energy-hungry and expensive.
+GPUs (like the H100) are unparalleled for Training—crunching massive datasets in parallel. But for Inference (running the model for users), they are energy-hungry and expensive.
 
 Groq’s LPU architecture was the only viable threat, offering blazing speed and lower latency for sequential processing. By absorbing this tech, Nvidia neutralizes the competition. They now control the entire lifecycle: from training the model to serving it.
 
