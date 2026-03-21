@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<section class="section" id="now">
+  <div class="section-head reveal">
+    <div class="section-title">Now</div>
+    <div class="section-line"></div>
+  </div>
+  <div class="now-updated reveal">// last updated: {{ .Date.Format "January 2006" | default "march 2026" }}</div>
+  <div class="now-content reveal">
+    {{ .Content }}
+  </div>
+  <div class="now-back">
+    <a href="/" class="post-back-link">← Back to home</a>
+  </div>
+</section>
+
+{{ end }}
