@@ -156,7 +156,7 @@ Hint from research: It's not fancier models. It's cleaner data, clearer use case
 
 ### 5. Demand Proof, Not Promises
 
-2026 is the year vendors must show ROI, not roadmaps. AsJan Van Hoecke(iManage) warns: "2026 is the year when agentic AI will get a reality check, as the gap between marketing promises made in 2025 and their actual competencies will become starkly visible."
+2026 is the year vendors must show ROI, not roadmaps. As Jan Van Hoecke (iManage) warns: "2026 is the year when agentic AI will get a reality check, as the gap between marketing promises made in 2025 and their actual competencies will become starkly visible."
 
 Stop accepting "transformational potential" as an answer.
 
