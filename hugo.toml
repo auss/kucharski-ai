@@ -11,6 +11,7 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS"]
+  page = ["HTML"]
 
 [outputFormats.RSS]
   mediaType = "application/rss+xml"
