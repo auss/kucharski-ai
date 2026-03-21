@@ -28,7 +28,7 @@ The compute layer is consolidating fast—but it's not just about chips anymore:
 
 - Apple & Google: In what may be the deal of the decade, Apple integrated Google Gemini into Apple Intelligence. Translation: even Apple admits it can't win the foundation model race alone. The strategy is hybrid: small models on-device for privacy, Gemini's cloud power for complex reasoning. Privacy remains paramount via Private Cloud Compute architecture.
 
--Hardware economics shifting: Gartner forecasts $2.52 trillion in global AI spending for 2026 (+44% YoY). But here's the kicker: 54% goes to "iron and silicon": servers, data centers, chips, and nowpower infrastructure. Software, the layer that creates actual business value, gets the scraps.
+- Hardware economics shifting: Gartner forecasts $2.52 trillion in global AI spending for 2026 (+44% YoY). But here's the kicker: 54% goes to "iron and silicon": servers, data centers, chips, and now power infrastructure. Software, the layer that creates actual business value, gets the scraps.
 
 The infrastructure bet is clear. The execution bet? Not so much.
 
