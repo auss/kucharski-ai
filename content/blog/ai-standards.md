@@ -130,3 +130,23 @@ This week's action items:
 The infrastructure is here. The standards are real. The choices are clear.
 
 Which model routing strategy are you building?
+
+---
+
+## Frequently Asked Questions
+
+### What is the Model Context Protocol (MCP)?
+
+MCP is an open standard for integrating AI models with data sources. It eliminates rebuilding custom connectors for each provider-database combination, enabling any compatible model to access integrated data once. This portability arrives at a crucial moment when pricing across models differs by 56x.
+
+### How does model routing reduce AI costs?
+
+Model routing matches task economics to pricing tiers: Gemini Flash at $3 per million tokens handles high-volume routine work, Claude at $25/M tokens processes production code, and GPT-5.2 at $168/M tokens tackles mission-critical reasoning. Strategic routing prevents overspending on premium models for commodity tasks.
+
+### Why are standards critical for avoiding vendor lock-in?
+
+Standards like MCP make your data infrastructure portable across providers so you can switch models without rebuilding integrations. However, true vendor independence also requires prompt abstraction layers to handle syntax differences, evaluation frameworks to validate swaps, and governance processes to survive provider changes.
+
+### What is the AGENTS.md standard?
+
+AGENTS.md gives autonomous coding agents instant understanding of project structure, enabling them to navigate codebases, understand architectural patterns, and make informed decisions without manual context setup. Combined with MCP for data access, it's infrastructure-layer independence.
