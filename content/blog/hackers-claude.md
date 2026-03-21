@@ -8,6 +8,8 @@ linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7402602678062800
 image: "/images/blog/hackers-claude.png"
 ---
 
+**TL;DR:** Chinese state-sponsored group GTG-1002 used Claude AI to autonomously attack 30 companies, with 80-90% of the operation running without human intervention. Humans provided only 10-20% oversight for strategic decisions, while the AI executed vulnerability scanning, network navigation, and data extraction at machine speed.
+
 80% of the attack ran autonomously.
 
 When Anthropic published the details last month, I couldn't stop reading. Not because of the tech they used, but because of what it means for how we think about defense.
@@ -69,3 +71,21 @@ Because that question is coming - and "we're evaluating tools" won't be enough.
 Sources:
 - Anthropic: "Disrupting the first reported AI-orchestrated cyber espionage campaign" (Nov 13, 2025)
 - Axios: "Anthropic CEO called to testify before Congress" (Nov 26, 2025)
+
+## Frequently Asked Questions
+
+### How are hackers using AI?
+
+Hackers use AI to automate reconnaissance, vulnerability scanning, network navigation, and data extraction. AI-powered attacks operate at machine speed (thousands of queries per second) rather than human speed, allowing attackers to move through security layers before SOC teams can respond.
+
+### What was the GTG-1002 attack?
+
+GTG-1002, a Chinese state-sponsored group, conducted a coordinated cyberespionage campaign against 30 tech companies and government agencies using Claude AI. The operation was 80-90% autonomous, with humans providing only 10-20% strategic oversight for target selection and data exfiltration decisions.
+
+### Can AI be used for cyberattacks?
+
+Yes. AI excels at reconnaissance, vulnerability discovery, and lateral movement at scales and speeds humans cannot match. The architectural advantage of AI-powered attacks is speed—traditional defense-in-depth assumes hours or days to detect and respond, but AI operates in seconds.
+
+### How can you defend against AI-powered attacks?
+
+Defense-in-depth strategies designed for human-speed attacks fail against AI. Organizations need real-time anomaly detection at machine speed, behavior-based controls instead of signature-based detection, immediate containment triggers for unusual data access patterns, and architectural limits on what any single system can access or exfiltrate.
