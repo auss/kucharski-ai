@@ -24,7 +24,7 @@ But are you? Or are you just chasing the "Slot Machine" effect?
 
 The mechanism is exactly like Instagram: you pull the lever (write a prompt), wait those few seconds of anticipation, andding- the reward appears, a perfectly formatted response, a clever solution, a block of text. It's the same immediate hit as a "Like" notification, but since the output looks like "work" the internal alarm bells never go off. We've gamified our own jobs and we didn't even notice.
 
-The Cost of Passive Acceptance
+## The Cost of Passive Acceptance
 
 This isn't just a hunch - the data is starting to show what this does to our brains. A recent study from Anthropic (January 2026) tracked how people learn with AI assistance and found a huge difference between two specific behaviors.
 
