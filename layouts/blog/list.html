@@ -1,14 +1,30 @@
 {{ define "main" }}
 
-<section class="section">
+<section class="section" id="writing">
   <div class="section-head reveal">
     <div class="section-title">Writing</div>
     <div class="section-line"></div>
   </div>
 
+  {{ range first 1 .Pages }}
+  <a href="{{ .Permalink }}" class="featured reveal">
+    <div class="featured-badge">Latest</div>
+    <div class="featured-date">{{ .Date.Format "Jan 2006" }}</div>
+    <div class="featured-title">{{ .Title }}</div>
+    <div class="featured-excerpt">{{ .Params.description }}</div>
+    {{ if .Params.tags }}
+    <div class="featured-tags">
+      {{ range .Params.tags }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+  </a>
+  {{ end }}
+
   <div class="posts">
-    {{ range .Pages }}
-    <a href="{{ with .Params.linkedin }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="post reveal" {{ with .Params.linkedin }}target="_blank"{{ end }}>
+    {{ range after 1 .Pages }}
+    <a href="{{ .Permalink }}" class="post reveal">
       <div class="post-date">{{ .Date.Format "Jan 2006" }}</div>
       <div>
         <div class="post-title">{{ .Title }}</div>
