@@ -24,7 +24,7 @@ Three models dominate, each with different positioning: Claude Opus 4.5 leads on
 
 For engineering leaders, the implication is clear: model routing becomes mandatory, not optional.
 
-Route based on task economics:
+### Route Based on Task Economics:
 
 - Gemini Flash handles volume work at $3 per million tokens
 
