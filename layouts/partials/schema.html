@@ -49,7 +49,35 @@
     "name": "{{ .Site.Params.author }}",
     "url": "{{ .Site.BaseURL }}"
   }{{ if .Params.tags }},
-  "keywords": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}"{{ $tag }}"{{ end }}]{{ end }}
+  "keywords": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}"{{ $tag }}"{{ end }}]{{ end }}{{ if .Params.faq }},
+  "mainEntity": [{{ range $i, $q := .Params.faq }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $q.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $q.answer }}"
+      }
+    }{{ end }}
+  ]{{ end }}
 }
 </script>
+{{- if .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{{ range $i, $q := .Params.faq }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $q.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $q.answer }}"
+      }
+    }{{ end }}
+  ]
+}
+</script>
+{{- end }}
 {{- end }}
