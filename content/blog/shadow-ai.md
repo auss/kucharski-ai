@@ -8,6 +8,8 @@ linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7401893020406620
 image: "/images/blog/shadow-ai.png"
 ---
 
+**TL;DR:** Shadow AI is unauthorized AI tool usage in enterprise teams that exists because organizations try to ban rather than govern AI adoption. Engineering leaders should create safe adoption frameworks, governance structures, and explicit permission models instead of driving adoption underground.
+
 99% of people treat ChatGPT like Google.
 That’s why their results are average.
 Here is the 4-step framework I use to automate complex workflows (No code required).
