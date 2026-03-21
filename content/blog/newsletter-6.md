@@ -6,7 +6,18 @@ description: "85% customize their agents. Only 25% actually ship them."
 tags: ["ai-weekly", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/85-problem-enterprise-ai-stuck-between-ambition-marcin-kucharski-rzxkf"
 image: "/images/blog/newsletter-6.png"
+faq:
+  - question: "Why can 85% of enterprises customize agents but only 25% ship them to production?"
+    answer: "The pilot-to-production conversion rate sits at 21-25% across surveys, with the primary blocker being security governance, not model performance. Three high-profile exploits in January 2026 (Gemini Calendar prompt injection, Cursor IDE arbitrary code execution, Claude Code session hijacking) killed deployment plans for enterprises that spent months on pilots. The gap is the Security Development Lifecycle running slower than agent deployment cycles."
+  - question: "What are the main security risks preventing agent production deployment?"
+    answer: "Prompt injection attacks hide malicious instructions in calendar events, code comments, email subjects, and filenames that exfiltrate data or escalate privileges. Cursor IDE's CVE-2026-22708 showed arbitrary code execution through workspace configuration files. Claude Code faced session hijacking via crafted HTML comments. Enterprise security teams lack AI-aware threat models in design, development, testing, and deployment phases—security reviews happen after pilots, creating technical debt faster than features ship."
+  - question: "How can enterprises move agents from pilots to production faster?"
+    answer: "Instrument agents like microservices using observability platforms: 72% of enterprises now manage agent lifecycle with health checks, distributed tracing, and anomaly detection. Treat autonomous agents with the same rigor as APIs. Red team agents for prompt injection before production. Build security into pilot design, not after. Defensive use cases (ITOps, cybersecurity, data processing) ship faster because workflows are instrumented, data is structured, and hallucination risk is lower than generative use cases."
+  - question: "Which agent deployment strategies deliver highest ROI and fastest time-to-production?"
+    answer: "Vertical agents targeting specific workflows (Microsoft Board Agents, AWS Nova Sonic, Hippocratic AI) outperform horizontal platforms. 44% of enterprises expect highest ROI from agentic AI in ITOps and system monitoring, 27% in cybersecurity, 25% in data processing. These defensive use cases deliver faster ROI than generative use cases (sales content, legal contracts) because agents parse logs and flag anomalies with ground truth validation. Vertical wins over horizontal when domain workflows require compliance and audit trails."
 ---
+
+**TL;DR:** 85% customize agents, 25% ship them. The gap isn't technology—it's governance. Security exploits (Gemini Calendar, Cursor IDE, Claude Code) blocked deployment plans in January 2026. The solution: instrument agents like microservices (72% of enterprises now do this), red team for prompt injection, and prioritize vertical agents for defensive use cases (ITOps 44% ROI, cybersecurity 27%) that ship faster than generative ones.
 
 85% of enterprises are customizing AI agents for their business needs.
 
@@ -133,3 +144,19 @@ ChatGPT Go launched at $8/month with ads. Employees are subscribing personally a
 ## 6. Calculate Your Reasoning Token Burn Rate
 
 OpenAI reported 320x growth in reasoning tokens year-over-year, driven by o3 and o1 adoption. If your agents use reasoning-heavy models, calculate your monthly token burn rate and compare it to budget. Reasoning tokens cost more than completion tokens, and 320x growth means costs are compounding faster than most finance teams forecasted. Optimize prompts, cache reasoning chains, or switch to smaller models for low-risk tasks before costs spiral.
+
+---
+
+## Frequently Asked Questions
+
+### Why can 85% of enterprises customize agents but only 25% ship them to production?
+The pilot-to-production conversion rate sits at 21-25% across surveys, with the primary blocker being security governance, not model performance. Three high-profile exploits in January 2026 (Gemini Calendar prompt injection, Cursor IDE arbitrary code execution, Claude Code session hijacking) killed deployment plans for enterprises that spent months on pilots. The gap is the Security Development Lifecycle running slower than agent deployment cycles.
+
+### What are the main security risks preventing agent production deployment?
+Prompt injection attacks hide malicious instructions in calendar events, code comments, email subjects, and filenames that exfiltrate data or escalate privileges. Cursor IDE's CVE-2026-22708 showed arbitrary code execution through workspace configuration files. Claude Code faced session hijacking via crafted HTML comments. Enterprise security teams lack AI-aware threat models in design, development, testing, and deployment phases—security reviews happen after pilots, creating technical debt faster than features ship.
+
+### How can enterprises move agents from pilots to production faster?
+Instrument agents like microservices using observability platforms: 72% of enterprises now manage agent lifecycle with health checks, distributed tracing, and anomaly detection. Treat autonomous agents with the same rigor as APIs. Red team agents for prompt injection before production. Build security into pilot design, not after. Defensive use cases (ITOps, cybersecurity, data processing) ship faster because workflows are instrumented, data is structured, and hallucination risk is lower than generative use cases.
+
+### Which agent deployment strategies deliver highest ROI and fastest time-to-production?
+Vertical agents targeting specific workflows (Microsoft Board Agents, AWS Nova Sonic, Hippocratic AI) outperform horizontal platforms. 44% of enterprises expect highest ROI from agentic AI in ITOps and system monitoring, 27% in cybersecurity, 25% in data processing. These defensive use cases deliver faster ROI than generative use cases (sales content, legal contracts) because agents parse logs and flag anomalies with ground truth validation. Vertical wins over horizontal when domain workflows require compliance and audit trails.
