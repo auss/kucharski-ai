@@ -81,20 +81,18 @@
   </div>
 </section>
 
+{{ with .Site.GetPage "/now" }}
 <section class="section" id="now">
   <div class="section-head reveal">
     <div class="section-title">Now</div>
     <div class="section-line"></div>
   </div>
   <div class="now-updated reveal">// last updated: march 2026</div>
-  <ul class="now-list">
-    <li class="now-item reveal">Managing people and accounts at <strong>NFQ Technologies</strong></li>
-    <li class="now-item reveal">Building a personal AI assistant system <em>— multi-agent orchestration with Claude, Gemini, and Codex</em></li>
-    <li class="now-item reveal">Building an AI-powered productivity tool <em>— email/Slack ingestion, LLM classification pipeline, real-time notification triage, task management, macOS + iOS app (Python + FastAPI + Swift + SQLite + SSE)</em></li>
-    <li class="now-item reveal">Building <strong>Bankomator</strong> <em>— a consumer app for finding fee-free ATMs with bank-specific filters, BLIK limits, and crowdsourced outage status (React Native + Expo + Supabase + PostGIS)</em></li>
-    <li class="now-item reveal">Writing about AI adoption and engineering leadership</li>
-  </ul>
+  <div class="now-content reveal">
+    {{ .Content }}
+  </div>
 </section>
+{{ end }}
 
 <section class="section" id="contact">
   <div class="section-head reveal">
