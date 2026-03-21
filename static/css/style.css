@@ -506,17 +506,19 @@ footer p {
 .post-content p { margin-bottom: 1.2rem; font-size: 0.95rem; line-height: 1.8; color: var(--text); }
 .post-content h2 {
   font-family: 'Archivo Black', sans-serif;
-  font-size: 1.15rem;
-  color: var(--text-bright);
+  font-size: 1.1rem;
+  color: var(--accent);
   margin: 2.5rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px dashed var(--border-dash);
+  border-left: 3px solid var(--accent);
+  padding-left: 0.8rem;
 }
 .post-content h3 {
-  font-family: 'Schibsted Grotesk', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-weight: 700;
-  font-size: 1rem;
-  color: var(--text-bright);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
   margin: 2rem 0 0.75rem;
 }
 .post-content ul, .post-content ol { margin: 1rem 0; padding-left: 1.5rem; color: var(--text); }
