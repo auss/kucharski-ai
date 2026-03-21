@@ -66,3 +66,23 @@ What about you?
 Have you caught yourself "Doomprompting"? Do you ever spend an hour refining prompts for something you could have done yourself in twenty minutes?
 
 Let's be honest about it.
+
+---
+
+## Frequently Asked Questions
+
+### What is Doomprompting and how does it work?
+
+Doomprompting is compulsive prompt refinement that masquerades as productivity. You write a prompt, wait for output, refine it, regenerate, ask for variations—chasing the dopamine hit of generated text appearing on screen. It feels virtuous because the output looks like work. It's not. It's scratching an itch.
+
+### How does passive acceptance with AI cause skill degradation?
+
+Anthropic's January 2026 study tracked two behaviors: Active Engagement (think first, use AI for execution, verify output) and Passive Acceptance (let AI lead, accept output without critical review). Six months later, workers in the passive group couldn't do the same task without AI. Passive acceptance trades short-term velocity for long-term skill loss.
+
+### Why do managers report faster productivity but complex work is actually slower?
+
+Managers measure velocity (text generated per hour). Objective studies (METR, late January) measure value (problems solved, decisions made). Doomprompting increases velocity while reducing value. Regenerating five strategy variations instead of picking one and executing looks productive but wastes time in refinement loops instead of implementation.
+
+### What's the difference between active and passive AI engagement?
+
+Active engagement: think through the problem first, then use AI to execute faster, then verify the result. This preserves skills and delivers real value. Passive acceptance: let AI lead the thinking, accept output because it looks professional, skip verification. This degrades skills within months and creates false velocity without value.
