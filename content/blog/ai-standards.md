@@ -46,9 +46,9 @@ Sources:GPT-5.2 (OpenAI),Gemini 3 Flash (Google),SWE-bench analysis (DataCamp),A
 
 ### 1. Poland's Sovereign AI Hits Mass Distribution: Bielik Launches in InPost Mobile
 
-While US tech giants battle over enterprise contracts, Poland just put sovereign AI in the hands of millions. On December 16,InPostlaunchedBielik AIdirectly in its mobile app - giving free access to Poland's open-source language model with real-time internet connectivity. The "Nakarm Bielika" (Feed the Eagle) campaign turns every user interaction into training data for Polish language, culture, and context.
+While US tech giants battle over enterprise contracts, Poland just put sovereign AI in the hands of millions. On December 16, InPost launched Bielik AI directly in its mobile app - giving free access to Poland's open-source language model with real-time internet connectivity. The "Nakarm Bielika" (Feed the Eagle) campaign turns every user interaction into training data for Polish language, culture, and context.
 
-This is sovereign AI at production scale. The infrastructure backbone is "Gniazdo" (Nest) -Beyond.pl's AI Factory in Poznań featuring the F.I.N. supercomputer (NVIDIA DGX SuperPOD with B200 GPUs) designed specifically for training large language models. The backers: InPost'sRafał Brzoska(Business Council chairman),Google Cloud,Deviniti, and Sebastian Kulczyk.
+This is sovereign AI at production scale. The infrastructure backbone is "Gniazdo" (Nest) - Beyond.pl's AI Factory in Poznań featuring the F.I.N. supercomputer (NVIDIA DGX SuperPOD with B200 GPUs) designed specifically for training large language models. The backers: InPost's Rafał Brzoska (Business Council chairman), Google Cloud, Deviniti, and Sebastian Kulczyk.
 
 InPost Mobile has millions of Polish users checking package tracking daily. Bielik just became the most accessible sovereign AI model in Central-Eastern Europe - not through API pricing tiers, but through an app people already use every day.
 
