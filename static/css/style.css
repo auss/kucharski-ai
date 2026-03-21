@@ -532,6 +532,26 @@ footer p {
 .post-content strong { color: var(--text-bright); font-weight: 600; }
 .post-content hr { border: none; border-top: 1px dashed var(--border-dash); margin: 2rem 0; }
 
+/* TL;DR CAPSULE — first paragraph in post (answer capsule for GEO) */
+.post-content > p:first-child {
+  border: 1px dashed var(--border-dash);
+  background: var(--accent-dim);
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text);
+  position: relative;
+}
+.post-content > p:first-child strong:first-child {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-right: 0.3rem;
+}
+
 /* SINGLE POST PAGE */
 .post-header {
   max-width: var(--max-w);
