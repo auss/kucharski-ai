@@ -8,9 +8,11 @@ linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7398978778447863
 image: "/images/blog/42-percent-abandoned.png"
 ---
 
-AI adoption isn’t failing because of one thing.
+**TL;DR:** 42% of companies abandon AI projects not because of technology limitations but because of organizational failures—tools are chosen before problems are defined, governance is bolted on after incidents, and probabilistic systems are forced into deterministic processes without human oversight or accountability structures.
 
-It’s failing because two hard problems are colliding at the same time.
+AI adoption isn't failing because of one thing.
+
+It's failing because two hard problems are colliding at the same time.
 
 (1) The first problem is TECHNICAL.
 
@@ -25,7 +27,7 @@ These are not bugs - they're programmed that way! Any organisation pretending ot
 
 (2) The second problem is ORGANISATIONAL.
 
-It’s familiar because organisations repeat the same transformation mistakes we’ve ALL been seeing for decades:
+It's familiar because organisations repeat the same transformation mistakes we've ALL been seeing for decades:
 
 - Tools chosen before problems are defined
 - Ownership pushed to IT
@@ -48,7 +50,7 @@ That combination guarantees stalled pilots or abandonment.
 
 THE SOLUTION?
 
-Dont patronise everyone by telling them to “embrace AI”.
+Dont patronise everyone by telling them to "embrace AI".
 
 What works is layered design across both domains.
 
@@ -76,3 +78,21 @@ Questions worth asking before the next rollout:
 AI adoption is not a tech rollout. It is an operating model change, constrained by the limits of the technology and the maturity of the organisation.
 
 If either side is ignored, adoption stalls... so if you'd like help assessing your AI readiness, get in touch for a chat www.futurecolab3000.com
+
+## Frequently Asked Questions
+
+### Why do AI projects fail?
+
+AI projects fail when organizations confuse technology capability with operational readiness. Most failures stem from selecting tools before defining problems, lack of governance, removing human judgment from critical decisions, and expecting probabilistic systems to deliver deterministic results without verification structures.
+
+### What percentage of AI projects are abandoned?
+
+42% of companies abandoned their AI projects in the most recent year. Most abandonment occurs after initial pilots or demos, not because the technology failed but because organizations didn't resolve the collision between probabilistic AI systems and deterministic business processes.
+
+### How can you prevent AI project failure?
+
+Define business outcomes before selecting tools, assign clear ownership for risk and decisions, build verification and auditability into workflows, train teams to validate and escalate AI outputs rather than trusting them blindly, and measure behavior change and quality metrics rather than just license adoption.
+
+### What is organizational AI readiness?
+
+Organizational AI readiness means having defined decision ownership, governance structures in place before incidents occur, data foundations that can support AI verification, teams trained in AI judgment (not just tool usage), and explicit human oversight boundaries designed into workflows from the start.
