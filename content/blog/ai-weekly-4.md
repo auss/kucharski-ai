@@ -6,7 +6,18 @@ description: "When your AI ambitions run into physical infrastructure limits."
 tags: ["ai-weekly", "ai-strategy"]
 linkedin: "https://www.linkedin.com/pulse/why-your-2026-ai-roadmap-just-hit-physical-wall-marcin-kucharski-93uxf"
 image: "/images/blog/ai-weekly-4.png"
+faq:
+  - question: "What is Nvidia's licensing strategy with Groq?"
+    answer: "Nvidia licensed Groq's LPU (Language Processing Unit) technology for $20 billion and hired founder Jonathan Ross. This consolidates inference (model serving) under Nvidia control, since their GPUs dominate training but were expensive for inference."
+  - question: "Why did ServiceNow acquire Armis for $7.75 billion?"
+    answer: "Armis provides visibility into non-managed devices (IoT, OT, medical equipment). Combined with ServiceNow's workflow engine, it creates a 'kill switch' for autonomous agents—detecting and blocking policy violations in milliseconds before they cause damage."
+  - question: "What was the Coupang breach vulnerability?"
+    answer: "A former IT engineer exfiltrated 33 million user records using an authentication key that remained active after termination. With AI scripts, what once took weeks now takes a single night by mimicking normal traffic patterns, making off-boarding procedures critical."
+  - question: "How should enterprises prepare for autonomous agents in 2026?"
+    answer: "Build defensive infrastructure first: automated visibility layers to detect unauthorized access, kill-switch mechanisms to block policy violations, and automated off-boarding to revoke credentials within minutes of termination. Human oversight alone is too slow for machine-speed mistakes."
 ---
+
+**TL;DR:** $27 billion in capital moves this week signal AI infrastructure consolidation. Nvidia controls training+inference via Groq acquisition. ServiceNow builds agent control layers. Off-boarding procedures become security-critical when AI accelerates insider threats. Infrastructure constraints, not software, now dominate 2026 roadmaps.
 
 ## The Reality Check
 
