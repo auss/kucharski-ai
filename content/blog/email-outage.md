@@ -6,7 +6,18 @@ description: "An outage that revealed what we depend on."
 tags: ["product"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7376940643052408832/"
 image: "/images/blog/email-outage.png"
+faq:
+  - question: "What are the main causes of system outages in email infrastructure?"
+    answer: "Email outages typically stem from organizational blind spots: unenforced policies, unmonitored error patterns, and poor logging practices. When systems degrade gradually over days, warning signals exist in logs and metrics but go unconnected until total failure forces action."
+  - question: "How can AI help prevent email system outages?"
+    answer: "AI can reduce outage risk through policy awareness (scanning rules for affected accounts), signal amplification (detecting error trends before collapse), meaningful logging strategies (analyzing past incidents to identify missing data), and cross-signal correlation (combining weak signals from tickets, logs, and metrics)."
+  - question: "What is the difference between reactive and proactive incident response?"
+    answer: "Reactive response waits for systems to fail before acting. Proactive response uses AI to spot early warning signals—policy changes, error pattern shifts, subtle performance dips—days before collapse, enabling preventive action instead of crisis management."
+  - question: "Why do organizations miss email outage warning signs?"
+    answer: "Thousands of log entries contain the story of degradation but are buried under volume. Without strategic logging and AI-powered correlation, organizations can't connect dots across silos. The difference is 'clients calling us about outages' versus 'us calling clients before they notice.'"
 ---
+
+**TL;DR:** Email system failures aren't technical problems—they're organizational blind spots. AI-powered policy awareness, signal amplification, strategic logging, and cross-signal correlation can shift outage prevention from reactive (post-failure) to proactive (days early), preventing the cascade from early signals to total collapse.
 
 Another time, systems degraded slowly over several days. Performance dropped, errors accumulated. The signals were there—in logs, in system outputs—but nobody connected the dots. We only acted once the system collapsed and downtime forced our hand.
 
