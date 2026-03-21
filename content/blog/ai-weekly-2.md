@@ -6,7 +6,18 @@ description: "The AI adoption paradox: almost everyone deployed, almost nobody i
 tags: ["ai-weekly", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/ai-adoption-paradox-88-deployed-only-6-ready-marcin-kucharski-l6gkf"
 image: "/images/blog/ai-weekly-2.png"
+faq:
+  - question: "What percentage of companies are actually ready for AI infrastructure?"
+    answer: "McKinsey reports 88% of companies deployed AI in 2025, but only 6% have real-time data infrastructure ready to support it. The gap means 82% are spending 71% of time on manual data integration instead of AI work."
+  - question: "How much more productive are frontier workers?"
+    answer: "OpenAI's enterprise report identifies 'Frontier Workers' (top 5%) as 6 times more productive than peers overall, reaching up to 17 times higher productivity for coding. This gap is infrastructure-based, not talent-based."
+  - question: "What percentage of AI budgets shifted from buying to building?"
+    answer: "Menlo Ventures reports the buy-versus-build ratio flipped from 47% (buying) to 76% (buying) in 2025, representing $37 billion in spending. Companies realized building AI infrastructure from scratch is a losing game compared to adopting platforms."
+  - question: "How many data sources does typical AI implementation require?"
+    answer: "CData found typical AI use cases pull data from 6+ sources. Without real-time infrastructure, each integration requires manual work every deployment cycle, creating the 71% time-on-plumbing problem."
 ---
+
+**TL;DR:** 88% of companies deployed AI, but only 6% have infrastructure ready. The real gap: 71% of time spent on manual data integration. Frontier workers (top 5%) are 6-17x more productive due to infrastructure, not talent. Budget shifted 76% toward buying platforms instead of building.
 
 88% of companies adopted AI. Only 6% are ready for it.
 
