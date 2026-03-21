@@ -38,7 +38,7 @@ The infrastructure bet is clear. The execution bet? Not so much.
 
 While Big Tech builds, enterprises burn cash:
 
--95% zero ROI: MIT's report isn't an outlier. Forbes, Baytech Consulting, and multiple 2026 analyses confirm it. The failure patterns are consistent: brittle workflows, lack of institutional memory in models, bad "build vs. buy" decisions (67% of "build" attempts fail), and wrong focus areas (too much on sales/marketing, not enough on back office operations where automation delivers immediate savings).
+- 95% zero ROI: MIT's report isn't an outlier. Forbes, Baytech Consulting, and multiple 2026 analyses confirm it. The failure patterns are consistent: brittle workflows, lack of institutional memory in models, bad "build vs. buy" decisions (67% of "build" attempts fail), and wrong focus areas (too much on sales/marketing, not enough on back office operations where automation delivers immediate savings).
 
 -The 5% vs. 95% split: What separates winners from failures isn't technology—it's infrastructure maturity, governance, and team structure. The 5% who succeed have AI-ready data foundations, strong data quality controls, cross-functional teams with C-suite alignment, and a ruthless focus on measurable business outcomes.
 
