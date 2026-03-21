@@ -38,7 +38,7 @@ For CTOs:The "hardware diversity" argument just got weaker. The "compute tax" is
 
 ### 2. The Agentic Shield ($7.75 Billion)
 
-ServiceNow announced its agreement to acquireArmis for $7.75 billion.
+ServiceNow announced its agreement to acquire Armis for $7.75 billion.
 
 This is the largest deal in ServiceNow’s history, and it has one goal: building the"AI Control Tower."As we prepare to unleash autonomous agents into our networks, the industry is terrified of losing control.
 
