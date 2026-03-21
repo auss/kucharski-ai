@@ -50,7 +50,7 @@ Three strategic signals this week matter:
 
 1. Multi-provider is the new default: Apple didn't pick "the best" model, it picked a portfolio strategy. Microsoft hedges with Anthropic. OpenAI hedges with Cerebras. Your single-vendor assumption just became expensive.
 
-2. From models to systems:Satya Nadella's January blog post marks a strategic pivot. Microsoft is done selling "magic models." The new doctrine: AI as integratedsystemswith memory, context, and process scaffolding,not chatbot replacements. Nadella's warning about "AI slop" (low-quality generated content) signals the market's fatigue with hype over substance.
+2. From models to systems: Satya Nadella's January blog post marks a strategic pivot. Microsoft is done selling "magic models." The new doctrine: AI as integrated systems with memory, context, and process scaffolding, not chatbot replacements. Nadella's warning about "AI slop" (low-quality generated content) signals the market's fatigue with hype over substance.
 
 3. Agentic AI enters production: Google launched Universal Commerce Protocol, enabling AI agents to research, compare, and purchase end-to-end. Anthropic released Cowork for desktop task automation. Gartner predicts 40% of enterprise apps will have task-specific agents by end-2026 (up from 5% today). The era of "pilot purgatory" is ending—agents are going production.
 
