@@ -10,7 +10,7 @@ faq:
   - question: "Why do AI projects fail?"
     answer: "AI projects fail when organizations confuse technology capability with operational readiness. Most failures stem from selecting tools before defining problems, lack of governance, and expecting probabilistic systems to deliver deterministic results."
   - question: "What percentage of AI projects are abandoned?"
-    answer: "42% of companies abandoned their AI projects in the most recent year. Most abandonment occurs after initial pilots or demos, not because the technology failed but because organizations didn\'t resolve the collision between probabilistic AI systems and deterministic business processes."
+    answer: "42% of companies abandoned their AI projects in the most recent year. Most abandonment occurs after initial pilots or demos, not because the technology failed but because organizations did not resolve the collision between probabilistic AI systems and deterministic business processes."
   - question: "How can you prevent AI project failure?"
     answer: "Define business outcomes before selecting tools, assign clear ownership for risk and decisions, build verification and auditability into workflows, and train teams to validate and escalate AI outputs rather than trusting them blindly."
   - question: "What is organizational AI readiness?"

@@ -6,7 +6,18 @@ description: "$10 billion in AI infra, 95% ROI failure. The numbers are wild."
 tags: ["ai-weekly", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/10-billion-infrastructure-boom-meets-95-roi-failure-marcin-kucharski-sipuf"
 image: "/images/blog/newsletter-5.png"
+faq:
+  - question: "Why do 95% of companies fail to achieve AI ROI despite $37 billion in GenAI spending in 2025?"
+    answer: "MIT's 'GenAI Divide' report shows 95% of organizations have zero measurable return despite heavy investment. Failures follow consistent patterns: brittle workflows, lack of institutional memory, poor build-vs-buy decisions (67% of custom builds fail), and wrong focus areas. Success separates from failure through data infrastructure maturity, governance, and measurable business outcomes—not better models."
+  - question: "What's the difference between infrastructure wins and enterprise execution failures?"
+    answer: "Infrastructure is thriving: OpenAI secured $10B in Cerebras compute, Google acquired $4.75B in power infrastructure, and Amazon invested $20B in nuclear-powered data centers. Enterprise execution is collapsing: 95% zero ROI, 50% stuck in proof-of-concept. The paradox reveals supply exceeds demand—compute is cheap, but using it profitably is hard."
+  - question: "Why is power becoming the new bottleneck for AI infrastructure?"
+    answer: "By 2027, 40% of AI data centers will be operationally limited by power availability, not compute capacity. U.S. data center electricity consumption jumped from 183 TWh (2024) to 426 TWh projected (2030)—a 133% increase in six years. Big Tech responded by vertically integrating: Google owns solar farms and batteries, Microsoft restarted Three Mile Island, Amazon is building nuclear campuses. Energy access is now competitive advantage."
+  - question: "What separates the 5% of enterprises getting AI ROI from the 95% failing?"
+    answer: "The 5% winners have AI-ready data foundations (unified architectures, not silos), strong data quality controls (garbage in = garbage out), cross-functional C-suite alignment (CTO + CFO + CHRO, not IT silos), and ruthless focus on measurable outcomes—not vanity pilots. They clone working team structures instead of building more 'AI Centers of Excellence.' Back-office automation delivers immediate ROI; vague 'innovation' fails."
 ---
+
+**TL;DR:** $37 billion spent, 95% zero ROI. The paradox: infrastructure booming ($10B Cerebras deal, $4.75B power acquisition), but enterprise execution collapsing. Winners have data maturity, cross-functional alignment, and measurable use cases. Losers build custom agents, lose 19% efficiency on complex tasks, and stay stuck in pilot purgatory. 2026 is the year CFOs demand proof.
 
 95% of companies are getting zero return on their AI investments.
 
@@ -169,3 +180,19 @@ Action: Audit your inference costs. What's your energy overhead? Which of your v
 Big Tech is vertically integrating from power plants to APIs. If energy becomes the bottleneck (and 40% of data centers will be power-limited by 2027), who gets priority?
 
 The companies that own the power supply.
+
+---
+
+## Frequently Asked Questions
+
+### Why do 95% of companies fail to achieve AI ROI despite $37 billion in GenAI spending in 2025?
+MIT's "GenAI Divide" report shows 95% of organizations have zero measurable return despite heavy investment. Failures follow consistent patterns: brittle workflows, lack of institutional memory, poor build-vs-buy decisions (67% of custom builds fail), and wrong focus areas. Success separates from failure through data infrastructure maturity, governance, and measurable business outcomes—not better models.
+
+### What's the difference between infrastructure wins and enterprise execution failures?
+Infrastructure is thriving: OpenAI secured $10B in Cerebras compute, Google acquired $4.75B in power infrastructure, and Amazon invested $20B in nuclear-powered data centers. Enterprise execution is collapsing: 95% zero ROI, 50% stuck in proof-of-concept. The paradox reveals supply exceeds demand—compute is cheap, but using it profitably is hard.
+
+### Why is power becoming the new bottleneck for AI infrastructure?
+By 2027, 40% of AI data centers will be operationally limited by power availability, not compute capacity. U.S. data center electricity consumption jumped from 183 TWh (2024) to 426 TWh projected (2030)—a 133% increase in six years. Big Tech responded by vertically integrating: Google owns solar farms and batteries, Microsoft restarted Three Mile Island, Amazon is building nuclear campuses. Energy access is now competitive advantage.
+
+### What separates the 5% of enterprises getting AI ROI from the 95% failing?
+The 5% winners have AI-ready data foundations (unified architectures, not silos), strong data quality controls (garbage in = garbage out), cross-functional C-suite alignment (CTO + CFO + CHRO, not IT silos), and ruthless focus on measurable outcomes—not vanity pilots. They clone working team structures instead of building more "AI Centers of Excellence." Back-office automation delivers immediate ROI; vague "innovation" fails.
