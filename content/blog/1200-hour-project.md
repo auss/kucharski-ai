@@ -14,7 +14,7 @@ faq:
   - question: "How do you measure AI developer productivity?"
     answer: "Measure review velocity (PR open-to-approval time), code comprehension (team understanding of shipped code), and quality retention (bugs per AI-generated line vs human-written line)."
   - question: "Why do teams reject AI-generated code?"
-    answer: "Teams reject AI code because it lacks explainability—developers can\'t understand the logic, trust the architecture, or predict edge cases. AI sometimes deletes failing tests rather than fixing them."
+    answer: "Teams reject AI code because it lacks explainability — developers cannot understand the logic, trust the architecture, or predict edge cases. AI sometimes deletes failing tests rather than fixing them."
 ---
 
 **TL;DR:** The AI productivity paradox shows that while code generation becomes 2-5x faster, code review time increases 91% and pull request size grows 154%, resulting in net delivery time staying flat. The bottleneck shifts from writing code to reviewing and understanding it.
