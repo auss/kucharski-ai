@@ -6,7 +6,18 @@ description: "When productivity tools become productivity traps."
 tags: ["personal", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/doomprompting-how-i-traded-one-addiction-another-marcin-kucharski-b8qaf"
 image: "/images/blog/doomprompting.png"
+faq:
+  - question: "What is Doomprompting?"
+    answer: "Doomprompting is compulsive prompt refinement disguised as productivity. You write a prompt, wait for output, tweak it, regenerate, ask for variations—chasing the dopamine hit of generated text. It feels virtuous because the output looks like work, but you're not solving problems, you're scratching an itch."
+  - question: "How does passive acceptance with AI cause skill degradation?"
+    answer: "Anthropic's January 2026 study found that passive acceptance (letting AI lead, accepting output because it looks professional) leads to skill degradation. Six months later, workers couldn't do the same task without AI. Active engagement (thinking first, using AI for execution, verifying output) preserves skill development."
+  - question: "Why do managers report 20-24% faster productivity but METR found complex work is often slower?"
+    answer: "Managers measure velocity (text generated per hour). Objective studies measure value (problems solved). Doomprompting increases velocity (lots of output) while reducing value (time lost managing the tool instead of solving problems). Regenerating five strategy variations instead of picking one and executing is fast and unproductive."
+  - question: "What's the difference between active engagement and passive acceptance with AI?"
+    answer: "Active engagement: think through the problem first, use AI to execute, verify the result. This preserves skills and delivers value. Passive acceptance: let the AI lead, accept output without critical review, let the tool do the thinking. This feels productive but degrades skills and wastes time in the long run."
 ---
+
+**TL;DR:** Doomprompting is compulsive prompt refinement disguised as work. It creates dopamine loops identical to social media scrolling. Passive acceptance with AI causes skill degradation within 6 months. Active engagement (think, execute, verify) preserves skills. Put the phone down and do the hard thinking.
 
 Saturday morning, I'm on a train with a newspaper and a book next to me - I specifically didn't bring my laptop so I wouldn't work this weekend. But I'm already working, on my phone, deep in a chat with an AI.
 
