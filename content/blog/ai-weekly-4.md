@@ -20,7 +20,7 @@ Over $27 billion in capital moved in just two deals this week. It’s a brutal r
 
 ### 1. The "Licensing" Checkmate ($20 Billion)
 
-Nvidia just dropped a massive$20 billion technology licensing deal with Groq.
+Nvidia just dropped a massive $20 billion technology licensing deal with Groq.
 
 It’s a brilliant strategic move to avoid antitrust investigations. Nvidia isn't buying the whole company; they are "extracting" the brain. They’ve licensed Groq's ultra-fast LPU (Language Processing Unit) technology and hired their top talent, including founder Jonathan Ross.
 
