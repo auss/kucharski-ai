@@ -106,7 +106,7 @@ While everyone obsesses over model parameters, the real constraint is emerging:p
 
 The numbers are brutal:By 2027, 40% of AI data centers will be operationally limited by power availability, not compute capacity. PJM Interconnection (serving 65 million Americans) will be 6 GW short of reliability requirements. U.S. data center electricity consumption jumped from 183 TWh (2024) to a projected 426 TWh by 2030 - a 133% increase in six years.
 
-Big Tech's response:They're not waiting for utilities. Google acquired Intersect Power for $4.75B to build "energy parks": co-located solar, batteries, and data centers delivering 10.8 GW by 2028. Microsoft restarted Three Mile Island (835 MW dedicated to AI, commercial mid-2027). Amazon invested $20B in a nuclear-powered data center campus.
+Big Tech's response: They're not waiting for utilities. Google acquired Intersect Power for $4.75B to build "energy parks": co-located solar, batteries, and data centers delivering 10.8 GW by 2028. Microsoft restarted Three Mile Island (835 MW dedicated to AI, commercial mid-2027). Amazon invested $20B in a nuclear-powered data center campus.
 
 The strategic shift: Companies that were "software-first" now own the full stack, from nuclear reactors to GPUs to API endpoints.
 
