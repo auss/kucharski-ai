@@ -26,7 +26,7 @@ The compute layer is consolidating fast—but it's not just about chips anymore:
 
 - Google & Power Grids: While everyone watched chip deals, Google quietly spent $4.75 billion acquiring Intersect Power, a data center energy infrastructure company. By 2028, Intersect will deliver 10.8 GW of capacity (20x the Hoover Dam). First project: 640 MW solar + 1.3 GWh battery storage in Texas, online late spring 2026. Google's strategy: own the full stack from power generation to inference. Tech companies that were "software-first" now control nuclear reactors and solar farms.
 
--Apple & Google: In what may be the deal of the decade, Apple integrated Google Gemini into Apple Intelligence. Translation: even Apple admits it can't win the foundation model race alone. The strategy is hybrid: small models on-device for privacy, Gemini's cloud power for complex reasoning. Privacy remains paramount via Private Cloud Compute architecture.
+- Apple & Google: In what may be the deal of the decade, Apple integrated Google Gemini into Apple Intelligence. Translation: even Apple admits it can't win the foundation model race alone. The strategy is hybrid: small models on-device for privacy, Gemini's cloud power for complex reasoning. Privacy remains paramount via Private Cloud Compute architecture.
 
 -Hardware economics shifting: Gartner forecasts $2.52 trillion in global AI spending for 2026 (+44% YoY). But here's the kicker: 54% goes to "iron and silicon": servers, data centers, chips, and nowpower infrastructure. Software, the layer that creates actual business value, gets the scraps.
 
