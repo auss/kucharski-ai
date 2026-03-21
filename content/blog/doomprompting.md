@@ -34,7 +34,7 @@ The researchers found that Passive Acceptance leads to skill degradation: people
 
 When I'm mindlessly prompting on the train I'm not doing Deep Work, not wrestling with the hard stuff - I'm just letting the AI drive because it feels good to see the text appear. I'm feeling productive (high velocity) but I'm actually stalling (low value).
 
-The Productivity Paradox
+## The Productivity Paradox
 
 This explains the weird disconnect we're seeing in tech right now: most managers report feeling 20-24% faster with AI, but objective measurements - like the METR study from late January - show that for complex work we are often slower.
 
