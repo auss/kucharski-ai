@@ -6,6 +6,15 @@ description: "They used Claude to automate the break-ins. 30 companies in one ru
 tags: ["ai-security"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7402602678062800897/"
 image: "/images/blog/hackers-claude.png"
+faq:
+  - question: "How are hackers using AI?"
+    answer: "Hackers use AI to automate reconnaissance, vulnerability scanning, network navigation, and data extraction. AI-powered attacks operate at machine speed (thousands of queries per second) rather than human speed."
+  - question: "What was the GTG-1002 attack?"
+    answer: "GTG-1002, a Chinese state-sponsored group, conducted a cyberespionage campaign against 30 tech companies and government agencies using Claude AI. The operation was 80-90% autonomous, with humans providing only 10-20% strategic oversight."
+  - question: "Can AI be used for cyberattacks?"
+    answer: "Yes. AI excels at reconnaissance, vulnerability discovery, and lateral movement at scales and speeds humans cannot match. AI-powered attacks operate in seconds while traditional defense assumes hours or days."
+  - question: "How can you defend against AI-powered attacks?"
+    answer: "Defense-in-depth strategies designed for human-speed attacks fail against AI. Organizations need real-time anomaly detection at machine speed, behavior-based controls instead of signature-based detection, and architectural limits on data access."
 ---
 
 **TL;DR:** Chinese state-sponsored group GTG-1002 used Claude AI to autonomously attack 30 companies, with 80-90% of the operation running without human intervention. Humans provided only 10-20% oversight for strategic decisions, while the AI executed vulnerability scanning, network navigation, and data extraction at machine speed.

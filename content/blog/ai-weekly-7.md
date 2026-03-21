@@ -6,7 +6,18 @@ description: "AI spending is accelerating. Governance isn't keeping up."
 tags: ["ai-weekly", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/when-investment-velocity-meets-governance-collapse-marcin-kucharski-e6n0f"
 image: "/images/blog/ai-weekly-7.png"
+faq:
+  - question: "What happened in the CISA ChatGPT breach?"
+    answer: "Madhu Gottumukkala, acting CISA director, uploaded sensitive government documents marked 'For Official Use Only' to public ChatGPT in August 2025. Automated sensors detected it immediately, but the incident wasn't disclosed for six months, raising accountability questions at the agency responsible for protecting critical infrastructure."
+  - question: "How large is Universal Music Group's lawsuit against Anthropic?"
+    answer: "UMG, Concord, and ABKCO filed a $3 billion suit claiming Anthropic torrented 20,000+ copyrighted songs from illegal libraries to train Claude and avoided licensing fees. This represents a 40x escalation from their October 2023 suit covering 500 works and $75 million in damages."
+  - question: "What is the 'poisoned tree' doctrine in AI liability?"
+    answer: "If courts rule a model was trained illegally, companies using that model may inherit liability when it generates copyrighted material. Most vendor indemnification clauses don't cover this scenario, making contract audits business-critical before deployment at scale."
+  - question: "How much is Meta investing in AI infrastructure in 2026?"
+    answer: "Meta's capex will climb to $115-135 billion in 2026, nearly double the $72.2 billion spent in 2025. This $27+ billion increase signals the company will pursue closed-source 'Avocado' (Llama successor) to monetize the massive investment and catch up to Google, OpenAI, and Anthropic."
 ---
+
+**TL;DR:** CISA director uploaded classified documents to ChatGPT. UMG filed $3B lawsuit against Anthropic for illegally training on copyrighted music. Meta committing $115-135B capex in 2026. Governance hasn't scaled with velocity. Indemnification clauses are now business-critical.
 
 Madhu Gottumukkala, acting director of CISA, uploaded sensitive government documents to public ChatGPT in August 2025.
 
