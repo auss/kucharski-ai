@@ -33,3 +33,23 @@ It's not about being the loudest voice, but about being the most informed and pe
 This isn't just about personal growth; it's about elevating your entire organization's technical maturity.
 
 What's one strategy you've found most effective in influencing architectural decisions without formal authority? Share your insights below!
+
+---
+
+## Frequently Asked Questions
+
+### What is the 'invisible hand' leadership model?
+
+Invisible hand leadership shapes critical decisions through influence, not formal authority. Technical leaders become indispensable by being the most informed person in the room, framing problems clearly, articulating trade-offs explicitly, and quantifying impact in business terms. Data and reasoning trump hierarchy.
+
+### How do you drive architectural decisions without being "in charge"?
+
+Master the art of clarity: present problems alongside multiple solution paths, explicitly compare trade-offs (performance, cost, security, maintenance burden), quantify business impact, and frame decisions as collective exploration. Build consensus by listening actively and bridging perspectives. Your authority comes from insight, not title.
+
+### What's the difference between winning an argument and achieving outcomes?
+
+Winning an argument means proving you're right. Achieving good outcomes means guiding the team toward the best collective decision. Invisible hand leaders optimize for organizational outcomes, not ego victory. This approach permanently strengthens the team's decision-making muscle across all future problems.
+
+### How should technical leaders incorporate business context?
+
+Architectural decisions are rarely purely technical—they're business decisions in technical disguise. Understand operational constraints (team size, release velocity), the team's current capabilities, and business priorities before proposing technical solutions. Context-aware recommendations are credible and adoptable, while purely technical solutions often get overruled.
