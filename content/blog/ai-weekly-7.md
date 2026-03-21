@@ -118,3 +118,23 @@ Google isn't selling AlphaGenome at per-token pricing. They're building partners
 4. **Agent Control Plane** — Create a central registry of deployed agents. Map permissions, dependencies, trigger conditions to prevent cascading chaos when one agent's action spawns unintended downstream consequences.
 
 Is your governance architecture ready, or are you the next CISA headline?
+
+---
+
+## Frequently Asked Questions
+
+### What happened in the CISA ChatGPT disclosure?
+
+Madhu Gottumukkala, acting director of CISA (Cybersecurity & Infrastructure Security Agency), uploaded sensitive government documents marked "For Official Use Only" to public ChatGPT in August 2025. Automated sensors detected the breach immediately, but the incident wasn't disclosed publicly until January 2026—six months later—raising accountability questions at the agency responsible for protecting America's critical infrastructure.
+
+### How large is Universal Music Group's copyright lawsuit against Anthropic?
+
+UMG, Concord, and ABKCO filed a $3 billion lawsuit alleging Anthropic "torrented an enormous number of unauthorized copies" from illegal shadow libraries (LibGen) to train Claude and avoid licensing fees. The complaint names CEO Dario Amodei personally. This represents a 40x escalation from their October 2023 suit covering 500 works and $75 million in damages.
+
+### What is the "poisoned tree" liability problem in AI?
+
+If courts rule a model was trained illegally, companies using that model may inherit liability when it generates copyrighted material. Most vendor indemnification clauses explicitly exclude this scenario. Before deploying Claude, GPT, or Gemini at scale, procurement teams must audit whether Microsoft, Google, or Anthropic cover costs if their model outputs infringing content for your business.
+
+### How much is Meta spending on AI in 2026?
+
+Meta announced capex guidance of $115-135 billion for 2026, nearly double the $72.2 billion in 2025. This $27+ billion increase signals the company will pursue closed-source "Avocado" (a Llama successor) to monetize the investment and compete with Google, OpenAI, and Anthropic, ending Meta's open-source era.
