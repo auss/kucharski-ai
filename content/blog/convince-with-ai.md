@@ -36,3 +36,23 @@ Small, specialized tools aren't a compromise or a temporary solution. They're ho
 Start small, ship fast, learn what works. Throw away what doesn't.
 
 Are you planning or are you shipping?
+
+---
+
+## Frequently Asked Questions
+
+### Why do generalist AI assistants consistently fail?
+
+Generalist assistants try to optimize for everything simultaneously, which mathematically means they optimize for nothing. When you throw ten different problems at one AI without clear focus, it lacks the context to understand what "good" looks like for any specific task. Context clarity is what enables learning.
+
+### What's the competitive advantage of specialized assistants?
+
+Specialized assistants excel because they have singular, clear context. An email assistant knows exactly what email handling requires. A calendar assistant understands scheduling constraints and conflicts. A meeting notes assistant has crisp requirements for extraction and formatting. This clarity allows the system to learn domain patterns rapidly.
+
+### How much faster do specialized assistants reach production quality?
+
+Teams report specialized assistants become useful within 2-3 days of deployment, while generalist approaches take weeks or never fully converge. The focused context eliminates ambiguity about priorities. When an AI's job is clear, it gets good at that job fast.
+
+### What's the architectural pattern for composing multiple assistants?
+
+Start with one specialized assistant solving one specific problem (email handling, scheduling, note extraction). Validate it works. Ship it. Then build the next specialist. They naturally integrate because each clearly knows its role and domain boundaries. This composable system of specialists outperforms a single universal assistant.
