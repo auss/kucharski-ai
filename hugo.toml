@@ -16,5 +16,8 @@ enableRobotsTXT = true
   mediaType = "application/rss+xml"
   baseName = "feed"
 
+[taxonomies]
+  tag = "tags"
+
 [markup.goldmark.renderer]
   unsafe = true
