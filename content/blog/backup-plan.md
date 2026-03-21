@@ -6,7 +6,18 @@ description: "Vendor lock-in with a new coat of paint."
 tags: ["ai-strategy"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7408804186265505794/"
 image: "/images/blog/backup-plan.png"
+faq:
+  - question: "Are Claude and Gemini truly independent systems?"
+    answer: "Both Anthropic's Claude models and Google's Gemini run on Google's infrastructure. Anthropic's Opus and Sonnet are first-class citizens on Vertex AI, trained and executed on Google's TPU clusters. A single regional TPU failure could affect both simultaneously, making vendor diversity an illusion."
+  - question: "What is Hardware Colocation risk?"
+    answer: "Hardware colocation occurs when multiple 'competing' models run on the same underlying infrastructure. If a specific TPU farm in us-central1 fails, both Claude and Gemini fail together. This creates a single point of failure despite having dual API keys and backup providers."
+  - question: "What's the difference between a 'Thundering Herd' and 'Shared Engine Failure'?"
+    answer: "Thundering Herd: thousands fail over to Gemini simultaneously, overwhelming its capacity. Shared Engine Failure: local infrastructure in GCP affects both Claude and Gemini tenants at once. Both scenarios look identical from the outside but require different failover architectures."
+  - question: "How should teams audit AI provider hardware isolation?"
+    answer: "Ask vendors: (1) What underlying hardware do you use? (2) Is it exclusive to your models or shared? (3) Which geographic regions host your infrastructure? (4) What's your incident communication timeline? Hard answers require Trust Engineering audits as part of vendor due diligence."
 ---
+
+**TL;DR:** Backup plans fail if both providers share hardware. Claude and Gemini both run on Google's TPU clusters. Regional infrastructure failures affect both simultaneously, creating single point of failure despite dual vendors. Hardware isolation audits are now critical for trust engineering.
 
 Two hours ago, Anthropic reported "elevated error rates in Opus 4.5". I immediately failed over to Gemini. 
 The result? Within seconds, I was seeing "Reduced capacity" and "Infrastructure load" warnings on Gemini too. 
