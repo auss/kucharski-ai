@@ -52,7 +52,7 @@ When you combine them, you get a "kill switch." If an autonomous AI agent tries 
 
 ### 3. The "Insider" Reality (Coupang)
 
-The investigation results regarding theCoupang breach(33 million users) should be a wake-up call for every CISO.
+The investigation results regarding the Coupang breach (33 million users) should be a wake-up call for every CISO.
 
 The culprit wasn't an external hacker group; it was a former IT engineer using an authentication key that remained active after their termination.
 
