@@ -70,7 +70,7 @@ The AI cold war went hot this week. The US Department of Energy launched "Genesi
 
 China's response: MetaX Integrated Circuits (AI chipmaker, Nvidia alternative) surged 700% on its Shanghai debut, hitting $42B market cap. It's a speculative bet - analysts flag bubble risk (50x price-to-sales ratio) - but Beijing needs domestic chip production to survive US sanctions.
 
-Meanwhile, Blackstone CEOStephen A. Schwarzmandismissed "bubble" fears around data center investments, noting they're backed by long-term contracts with the most creditworthy companies on Earth (Microsoft, Nvidia). The infrastructure layer is stable. The geopolitical battle is just beginning.
+Meanwhile, Blackstone CEO Stephen A. Schwarzman dismissed "bubble" fears around data center investments, noting they're backed by long-term contracts with the most creditworthy companies on Earth (Microsoft, Nvidia). The infrastructure layer is stable. The geopolitical battle is just beginning.
 
 Sources:Bloomberg: Genesis Mission,Reuters: MetaX IPO,Bloomberg: Blackstone
 
