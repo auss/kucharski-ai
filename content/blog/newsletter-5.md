@@ -42,7 +42,7 @@ While Big Tech builds, enterprises burn cash:
 
 - The 5% vs. 95% split: What separates winners from failures isn't technology—it's infrastructure maturity, governance, and team structure. The 5% who succeed have AI-ready data foundations, strong data quality controls, cross-functional teams with C-suite alignment, and a ruthless focus on measurable business outcomes.
 
--The efficiency illusion: Baytech's analysis of the METR 2025 study reveals a sobering truth—19% netslowdownin complex coding tasks when using AI. Jakob Nielsen predicts the dominant metric for 2026 will shift from "tokens generated" to "tasks completed autonomously." In other words: stop counting AI activity, start counting AIresults.
+- The efficiency illusion: Baytech's analysis of the METR 2025 study reveals a sobering truth—19% net slowdown in complex coding tasks when using AI. Jakob Nielsen predicts the dominant metric for 2026 will shift from "tokens generated" to "tasks completed autonomously." In other words: stop counting AI activity, start counting AI results.
 
 ### Big Tech Is Hedging—And So Should You
 
