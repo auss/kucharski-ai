@@ -4,7 +4,7 @@
 
 <section class="post-header">
   <a href="/" class="post-back-link">← Back to all posts</a>
-  <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+  <div class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</div>
   <h1 class="post-single-title">{{ .Title }}</h1>
   {{ if .Params.tags }}
   <div class="post-single-tags">
