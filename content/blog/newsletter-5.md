@@ -118,7 +118,7 @@ For CTOs:Your 2026 AI roadmap needs apower budget, not just a compute budget. Qu
 
 - Are you planning inference capacity without checking if the grid can support it?
 
-The insight:OpenAI's 750 MW Cerebras deal isn't just about inference speed, it's aboutenergy availability. When power becomes the bottleneck, securing it becomes competitive advantage.
+The insight: OpenAI's 750 MW Cerebras deal isn't just about inference speed, it's about energy availability. When power becomes the bottleneck, securing it becomes competitive advantage.
 
 ![](/images/blog/newsletter-5_inline_4.png)
 
