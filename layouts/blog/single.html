@@ -4,7 +4,11 @@
 
 <section class="post-header">
   <a href="/" class="post-back-link">← Back to all posts</a>
-  <div class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</div>
+  <div class="post-meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}· Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>{{ end }}
+    · {{ .ReadingTime }} min read
+  </div>
   <h1 class="post-single-title">{{ .Title }}</h1>
   {{ if .Params.tags }}
   <div class="post-single-tags">
