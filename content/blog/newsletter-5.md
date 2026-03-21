@@ -58,7 +58,7 @@ Three strategic signals this week matter:
 
 The opportunity is real. Cognizant claims AI could unlock trillions in productivity. Accenture reports 86% of C-suite plans to increase AI spend. But 2026 is the year the music stops.
 
-CFOs are done writing blank checks. As Domino Data Lab'sJarrod Vawdreyput it: "2026 is the year when the music stops. CFOs are done writing blank checks for 'AI innovation' that can't be tied to actual business results."
+CFOs are done writing blank checks. As Domino Data Lab's Jarrod Vawdrey put it: "2026 is the year when the music stops. CFOs are done writing blank checks for 'AI innovation' that can't be tied to actual business results."
 
 Your Board will ask this quarter: "What's our AI ROI?"
 
