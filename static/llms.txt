@@ -1,0 +1,35 @@
+# kucharski.ai
+
+> Personal blog by Marcin Kucharski — Engineering Manager writing about AI adoption, multi-agent systems, engineering leadership, and the human side of technology.
+
+## Author
+
+Marcin Kucharski is an Engineering Manager with 20 years of experience in software development. He specializes in AI adoption strategy, multi-agent systems architecture, and engineering team leadership. Based in Krakow, Poland.
+
+- LinkedIn: https://linkedin.com/in/makucharski
+- GitHub: https://github.com/auss
+- Email: hello@kucharski.ai
+
+## Articles
+
+- [AI Weekly #7: When Investment Velocity Meets Governance Collapse](/blog/ai-weekly-7-when-investment-velocity-meets-governance-collapse/): Analysis of the widening gap between AI spending acceleration and governance readiness. Covers Meta's $110B capex, Microsoft Maia 200 chip, Apple's AI investment surge, and the governance deficit across enterprises.
+- [AI Weekly #6: 85% Customize Agents, 25% Ship Them](/blog/ai-weekly-6-85-customize-agents-25-ship-them/): Weekly analysis of AI agent deployment gap — most teams customize but few ship to production. Covers Salesforce Agentforce metrics, Google's agent-to-agent protocol, and the customization-to-production pipeline problem.
+- [AI Weekly #5: $10B Infrastructure vs 95% ROI Failure](/blog/ai-weekly-5-10b-infrastructure-vs-95-roi-failure/): Analysis of the paradox between massive AI infrastructure investment ($10B+) and 95% ROI failure rate. Examines why spending doesn't equal returns.
+- [AI Weekly #4: Your 2026 AI Roadmap Just Hit a Physical Wall](/blog/ai-weekly-4-your-2026-ai-roadmap-just-hit-a-physical-wall/): When AI ambitions collide with physical infrastructure limits — power grid constraints, chip shortages, and data center capacity.
+- [AI Weekly #3: The Week AI Got Standards](/blog/ai-weekly-3-the-week-ai-got-standards/): Analysis of emerging AI standards and what standardization means for enterprise AI adoption.
+- [AI Weekly #2: 88% Deployed, Only 6% Ready](/blog/ai-weekly-2-88-deployed-only-6-ready/): The AI adoption paradox — nearly every enterprise has deployed AI, but only 6% have the infrastructure to support it at scale.
+- [AI Weekly #1: The Multi-Provider AI Era Just Started](/blog/ai-weekly-1-the-multi-provider-ai-era-just-started/): Why betting everything on one AI provider is getting risky. Analysis of multi-provider strategy for CTOs.
+- [1200-hour project. Delivered in one week by AI. The team refused to accept it.](/blog/1200-hour-project-delivered-in-one-week-by-ai-the-team-refused-to-accept-it/): Case study of a project estimated at 1200 hours delivered in one week using AI — and why the team rejected it. Explores organizational resistance to AI-delivered work.
+- [42% of companies abandoned their AI projects this year.](/blog/42-of-companies-abandoned-their-ai-projects-this-year-the-problem-isnt-the-technology/): Analysis of why most AI projects fail after the demo phase. The problem isn't technology — it's organizational readiness, governance, and change management.
+- [Your team is using ChatGPT right now. Do you know about it?](/blog/your-team-is-using-chatgpt-right-now-do-you-know-about-it/): Shadow AI is the new shadow IT. How engineering leaders should respond to unauthorized AI tool usage in their teams.
+- [In September 2025, Chinese hackers used Claude AI to break into 30 companies.](/blog/in-september-2025-chinese-hackers-used-claude-ai-to-break-into-30-companies/): Security analysis of how threat actors weaponized Claude AI for automated attacks on 30 companies in a single campaign.
+- [AI Security: SQL Injection has a fix. Prompt Injection doesn't.](/blog/ai-security-sql-injection-has-a-fix-prompt-injection-doesnt/): Comparison of SQL injection (solved 20+ years ago) versus prompt injection (no fundamental fix exists). Technical analysis of why prompt injection may never have a complete solution.
+- [Is your AI Backup Plan just a different logo on the same server?](/blog/is-your-ai-backup-plan-just-a-different-logo-on-the-same-server/): Analysis of AI vendor lock-in disguised as multi-provider strategy. How to evaluate whether your backup plan actually provides resilience.
+- [Your engineering team delivered flawlessly. The C-suite still questions your impact.](/blog/your-engineering-team-delivered-flawlessly-the-c-suite-still-questions-your-impact/): Why engineering excellence alone doesn't translate to executive-level recognition. Communication strategies for engineering leaders.
+- [We talk about ownership as if it were a gift.](/blog/we-talk-about-ownership-as-if-it-were-a-gift/): How "ownership culture" becomes a burden when teams have responsibility without authority. Analysis of the ownership paradox in engineering organizations.
+- [The longer I work with AI, the more convinced I am...](/blog/the-longer-i-work-with-ai-the-more-convinced-i-am/): Why AI tool proficiency matters less than knowing the right questions to ask. The real skill is problem framing, not prompt engineering.
+- [Two years ago, building a production chatbot meant months of work.](/blog/two-years-ago-building-a-production-chatbot-meant-months-of-work/): How the AI development timeline compressed from months to days. What this acceleration means for engineering teams and product strategy.
+- [Doomprompting: How I Traded One Addiction for Another](/blog/doomprompting-how-i-traded-one-addiction-for-another/): Personal essay on how AI productivity tools can become productivity traps. When optimization becomes compulsion.
+- [Pause > Cancel](/blog/pause-cancel-stop-making-it-easy-for-customers-to-get-a-divorce/): Product strategy analysis of subscription pause vs cancel patterns and what they reveal about customer retention.
+- [How many times have you heard that you're smart but lazy?](/blog/how-many-times-have-you-heard-that-youre-smart-but-lazy/): Personal essay about ADHD, harmful labels, and what happens when you stop believing them.
+- [Two days. That's how long email system wasn't working.](/blog/two-days-thats-how-long-email-system-wasnt-working/): Incident analysis of a two-day email outage and what it revealed about infrastructure dependencies.
