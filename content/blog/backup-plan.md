@@ -42,3 +42,23 @@ If it's the latter, then our "Multi-Cloud" and "Multi-Model" strategies might be
 As Gergely Orosz often highlights in his analysis of engineering maturity: we are currently shipping AI features much faster than we are building the operational SRE foundations to support them. 
 
 I’m curious—did anyone else see this specific correlation today? Are we looking at a traffic fluke, or do we need to start auditing our AI providers for "Hardware Isolation" as part of our TDD?
+
+---
+
+## Frequently Asked Questions
+
+### Are Claude and Gemini truly independent backup providers?
+
+Both Claude and Gemini run on Google’s infrastructure. Anthropic’s Opus and Sonnet models are first-class citizens on Vertex AI, trained and executed on Google’s TPU (Tensor Processing Unit) clusters. This means a regional infrastructure failure in us-central1 affects both simultaneously, making them neighbors on the same hardware, not independent backups.
+
+### What is Hardware Colocation risk?
+
+When multiple "competing" models run on the same underlying infrastructure, a single regional failure cascades across both. Your "multi-cloud" and "multi-model" strategy provides no protection if both vendors’ compute shares the same oxygen tank. This creates a single point of failure hidden behind different API endpoints.
+
+### What’s the difference between "Thundering Herd" and "Shared Engine Failure"?
+
+Thundering Herd: thousands fail over to Gemini simultaneously, overwhelming its spare capacity. Shared Engine Failure: a local infrastructure issue (power, networking, cooling) in the GCP layer affects both Claude and Gemini tenants at once. Both look identical from the outside—elevated error rates on both—but require entirely different failover architectures.
+
+### How should teams validate hardware isolation from AI providers?
+
+Audit vendors on: (1) Which underlying hardware powers your models? (2) Is it exclusive to your service or shared? (3) Which geographic regions house your infrastructure? (4) What’s your incident communication timeline? These answers determine whether your backup plan is genuine redundancy or just a different logo on the same server.
