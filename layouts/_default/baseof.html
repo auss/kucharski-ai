@@ -31,15 +31,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-<nav aria-label="Main navigation">
-  <a href="/" class="logo">kucharski<span>.</span>ai</a>
-  <div class="nav-links">
-    <a href="/#writing"{{ if eq .RelPermalink "/#writing" }} aria-current="page"{{ end }}>Writing</a>
-    <a href="/tags/">Topics</a>
-    <a href="/about/">About</a>
-    <a href="/#contact"{{ if eq .RelPermalink "/#contact" }} aria-current="page"{{ end }}>Say hi</a>
-  </div>
-</nav>
+<header class="site-header">
+  <nav aria-label="Main navigation">
+    <a href="/" class="logo">kucharski<span>.</span>ai</a>
+    <div class="nav-links">
+      <a href="/#writing"{{ if eq .RelPermalink "/#writing" }} aria-current="page"{{ end }}>Writing</a>
+      <a href="/tags/">Topics</a>
+      <a href="/about/">About</a>
+      <a href="/#contact"{{ if eq .RelPermalink "/#contact" }} aria-current="page"{{ end }}>Say hi</a>
+    </div>
+  </nav>
+</header>
 
 <main id="main-content">
 {{ block "main" . }}{{ end }}
