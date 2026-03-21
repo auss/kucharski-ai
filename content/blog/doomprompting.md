@@ -42,7 +42,7 @@ Why? Because we're spending all our time managing the tool instead of solving th
 
 Turns out we've replaced the difficult, quiet work of thinking with the fast, loud, exciting work of generating.
 
-Reclaiming the Quiet
+## Reclaiming the Quiet
 
 I'm not going to stop using AI - I use it every day, it's the most powerful tool I've ever had. But I'm realizing I have to treat it with the same caution I use for social media: it's a high-dopamine environment specifically designed to keep you engaged.
 
