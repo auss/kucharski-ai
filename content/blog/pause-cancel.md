@@ -6,7 +6,18 @@ description: "What subscription patterns are really saying."
 tags: ["product"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7411318833761804288/"
 image: "/images/blog/pause-cancel.png"
+faq:
+  - question: "Why did the Web3 analytics dashboard founder lose $87,000 and his marriage?"
+    answer: "He spent 14 months and his family's savings building a product for a problem he assumed was real but never validated. He talked to only 4 people initially, all said 'could be useful,' but none were actively hunting for a solution or frustrated with alternatives. When he launched, none of them cared. The lesson: solving a problem that sounds real but isn't is the fastest way to burn capital and relationships."
+  - question: "What is validation, and why does asking 'Would you use this?' not count?"
+    answer: "Validation means confirming people are actively solving a problem today, not testing politeness. When you ask 'Would you use this?' people say yes because it's polite. Meaningful validation requires asking 'How are you solving this RIGHT NOW?' If the answer is 'nothing' or 'we have a workaround,' the problem isn't painful enough. Real validation: people tried other tools, felt frustrated, and are actively searching for better solutions."
+  - question: "What are the three questions founders should ask before building?"
+    answer: "First: Is this problem real or does it sound real? Real problems cause active pain. Second: Are people actively solving this TODAY? If not, you're solving a ghost problem. Third: What are they using instead? If the answer is nothing, demand is absent. People willing to pay for solutions are already in pain and searching—not someday-maybe users."
+  - question: "How can founders avoid building products nobody needs?"
+    answer: "Talk to 20+ people before writing code. Not surveys—conversations. Ask how they're solving the problem right now. If they have a workaround, your solution needs to be 10x better to compete. If they say 'not painful,' they won't pay. Real validation shows evidence: people actively using alternatives and feeling frustrated, explicit budget to solve it, or active searches for solutions. Skip validation and you're gambling with capital and relationships."
 ---
+
+**TL;DR:** Founder lost $87,000 and his marriage building a product nobody needed. He assumed instead of validating. Real validation isn't "Would you use this?"—it's "How are you solving this RIGHT NOW?" If the answer is nothing or a workaround, demand doesn't exist. Talk to 20+ people, confirm they have active pain and are searching for solutions, before writing a single line of code.
 
 His wife left him.
 
@@ -119,3 +130,19 @@ If the answer is "nothing," you're solving a problem that doesn't exist.
 Don't lose everything over an assumption.
 
 Validate before you build.
+
+---
+
+## Frequently Asked Questions
+
+### Why did the Web3 analytics dashboard founder lose $87,000 and his marriage?
+He spent 14 months and his family's savings building a product for a problem he assumed was real but never validated. He talked to only 4 people initially, all said "could be useful," but none were actively hunting for a solution or frustrated with alternatives. When he launched, none of them cared. The lesson: solving a problem that sounds real but isn't is the fastest way to burn capital and relationships.
+
+### What is validation, and why does asking "Would you use this?" not count?
+Validation means confirming people are actively solving a problem today, not testing politeness. When you ask "Would you use this?" people say yes because it's polite. Meaningful validation requires asking "How are you solving this RIGHT NOW?" If the answer is "nothing" or "we have a workaround," the problem isn't painful enough. Real validation: people tried other tools, felt frustrated, and are actively searching for better solutions.
+
+### What are the three questions founders should ask before building?
+First: Is this problem real or does it sound real? Real problems cause active pain. Second: Are people actively solving this TODAY? If not, you're solving a ghost problem. Third: What are they using instead? If the answer is nothing, demand is absent. People willing to pay for solutions are already in pain and searching—not someday-maybe users.
+
+### How can founders avoid building products nobody needs?
+Talk to 20+ people before writing code. Not surveys—conversations. Ask how they're solving the problem right now. If they have a workaround, your solution needs to be 10x better to compete. If they say "not painful," they won't pay. Real validation shows evidence: people actively using alternatives and feeling frustrated, explicit budget to solve it, or active searches for solutions. Skip validation and you're gambling with capital and relationships.
