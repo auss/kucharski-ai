@@ -82,3 +82,23 @@ The fallout at Coupang proves that our off-boarding procedures are still manual 
 3. Automate Hygiene:Audit your dynamic API keys and off-boardingtoday. If your off-boarding process involves a spreadsheet, you are already vulnerable.
 
 2026 isn't about "trying AI." It's about building a scalable, trusted factory.
+
+---
+
+## Frequently Asked Questions
+
+### What does Nvidia's Groq licensing deal mean for AI competition?
+
+Nvidia licensed Groq's LPU (Language Processing Unit) technology for $20 billion and hired founder Jonathan Ross. This consolidates Nvidia's control over both training (GPUs) and inference (now LPU tech). For CTOs: the "hardware diversity" strategy just got weaker. Compute resources are consolidating into a single monopoly.
+
+### Why would ServiceNow pay $7.75 billion for Armis?
+
+Armis provides visibility into non-managed devices (IoT, operational technology, medical equipment). Combined with ServiceNow's workflow automation, it creates the "AI Control Tower"—a kill switch that detects and blocks autonomous agents violating policy in milliseconds, before damage occurs.
+
+### What was the Coupang breach and why does it matter for 2026?
+
+A former IT engineer exfiltrated 33 million user records using an authentication key left active after termination. In 2024 this was slow theft. In 2026, armed with AI scripts, the same exploit exfiltrates millions in a single night by mimicking normal traffic patterns. Off-boarding procedures are now a security-critical line item.
+
+### How should enterprises protect against autonomous agent risks?
+
+Build defensive infrastructure before deploying agents: automated visibility layers (Armis-style monitoring), kill-switch mechanisms (ServiceNow-style policy enforcement), and instant credential revocation (minutes, not spreadsheets). Human oversight is too slow for machine-speed mistakes and insider threats.
