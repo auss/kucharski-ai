@@ -75,10 +75,19 @@ a { color: inherit; text-decoration: none; }
 .reveal.vis { opacity: 1; transform: none; }
 
 /* NAV */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(14, 14, 14, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
 nav {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 2rem 2rem 0;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
