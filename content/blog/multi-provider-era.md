@@ -3,7 +3,7 @@ title: "AI Weekly #1: The Multi-Provider AI Era Just Started"
 slug: "ai-weekly-1-the-multi-provider-ai-era-just-started"
 date: 2025-12-05
 description: "Betting everything on one AI provider is getting risky. Most CTOs aren't ready."
-tags: ["ai-weekly", "multi-provider", "vendor-strategy"]
+tags: ["ai-weekly", "ai-strategy"]
 linkedin: "https://www.linkedin.com/pulse/multi-provider-ai-era-just-started-most-ctos-arent-ready-kucharski-widwf"
 image: "/images/blog/multi-provider-era.png"
 ---

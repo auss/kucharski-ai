@@ -3,7 +3,7 @@ title: "How many times have you heard that you're smart but lazy?"
 slug: "how-many-times-have-you-heard-that-youre-smart-but-lazy"
 date: 2025-11-19
 description: "About ADHD, about labels, and what happens when you stop believing them."
-tags: ["adhd", "labels", "self-discovery"]
+tags: ["personal"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7396804443192782848/"
 image: "/images/blog/smart-but-lazy.png"
 ---

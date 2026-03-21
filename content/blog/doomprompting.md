@@ -3,7 +3,7 @@ title: "Doomprompting: How I Traded One Addiction for Another"
 slug: "doomprompting-how-i-traded-one-addiction-for-another"
 date: 2026-02-04
 description: "When productivity tools become productivity traps."
-tags: ["adhd", "ai-addiction", "self-awareness"]
+tags: ["personal", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/doomprompting-how-i-traded-one-addiction-another-marcin-kucharski-b8qaf"
 image: "/images/blog/doomprompting.png"
 ---

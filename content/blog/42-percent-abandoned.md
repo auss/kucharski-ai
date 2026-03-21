@@ -3,7 +3,7 @@ title: "42% of companies abandoned their AI projects this year. The problem isn'
 slug: "42-of-companies-abandoned-their-ai-projects-this-year-the-problem-isnt-the-technology"
 date: 2025-11-25
 description: "Most AI projects fail after the demo. Here is why."
-tags: ["ai-graveyard", "demo-to-deploy", "reality-check"]
+tags: ["ai-adoption"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7398978778447863809/"
 image: "/images/blog/42-percent-abandoned.png"
 ---

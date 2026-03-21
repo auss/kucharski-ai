@@ -3,7 +3,7 @@ title: "AI Weekly #6: 85% Customize Agents, 25% Ship Them"
 slug: "ai-weekly-6-85-customize-agents-25-ship-them"
 date: 2026-01-23
 description: "85% customize their agents. Only 25% actually ship them."
-tags: ["ai-weekly", "agents", "deploy-gap"]
+tags: ["ai-weekly", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/85-problem-enterprise-ai-stuck-between-ambition-marcin-kucharski-rzxkf"
 image: "/images/blog/newsletter-6.png"
 ---

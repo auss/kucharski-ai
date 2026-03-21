@@ -3,7 +3,7 @@ title: "AI Weekly #3: The Week AI Got Standards"
 slug: "ai-weekly-3-the-week-ai-got-standards"
 date: 2025-12-15
 description: "AI got its first real standards this week. What that means in practice."
-tags: ["ai-weekly", "regulation", "iso"]
+tags: ["ai-weekly", "ai-strategy"]
 linkedin: "https://www.linkedin.com/pulse/week-ai-got-standards-marcin-kucharski-x4zyf"
 image: "/images/blog/ai-standards.png"
 ---

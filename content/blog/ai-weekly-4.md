@@ -3,7 +3,7 @@ title: "AI Weekly #4: Your 2026 AI Roadmap Just Hit a Physical Wall"
 slug: "ai-weekly-4-your-2026-ai-roadmap-just-hit-a-physical-wall"
 date: 2025-12-29
 description: "When your AI ambitions run into physical infrastructure limits."
-tags: ["ai-weekly", "infrastructure", "roadmap-reality"]
+tags: ["ai-weekly", "ai-strategy"]
 linkedin: "https://www.linkedin.com/pulse/why-your-2026-ai-roadmap-just-hit-physical-wall-marcin-kucharski-93uxf"
 image: "/images/blog/ai-weekly-4.png"
 ---

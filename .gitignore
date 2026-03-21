@@ -1,3 +1,6 @@
 public/
 resources/
 .hugo_build.lock
+
+scraped_content/
+scripts/__pycache__/

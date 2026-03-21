@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="section-head reveal">
+    <div class="section-title">Topics</div>
+    <div class="section-line"></div>
+  </div>
+  <div class="tag-cloud reveal">
+    {{ range .Data.Terms.Alphabetical }}
+    <a href="{{ .Page.Permalink }}" class="tag-link">
+      <span class="tag">{{ .Page.Title }}</span>
+      <span class="tag-count">{{ .Count }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

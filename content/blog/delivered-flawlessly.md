@@ -3,7 +3,7 @@ title: "Your engineering team delivered flawlessly. The C-suite still questions 
 slug: "your-engineering-team-delivered-flawlessly-the-c-suite-still-questions-your-impact"
 date: 2025-10-01
 description: "You shipped everything on time. The C-suite still doesn't get what you do."
-tags: ["eng-leadership", "c-suite", "visibility"]
+tags: ["engineering-leadership"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7363128000797667329/"
 image: "/images/blog/delivered-flawlessly.png"
 ---

@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="section-head reveal">
+    <div class="section-title">{{ .Title }}</div>
+    <div class="section-line"></div>
+  </div>
+  <div class="posts">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="post reveal">
+      <div class="post-date">{{ .Date.Format "Jan 2006" }}</div>
+      <div>
+        <div class="post-title">{{ .Title }}</div>
+        <div class="post-excerpt">{{ .Params.description }}</div>
+        {{ if .Params.tags }}
+        <div class="post-tags">
+          {{ range .Params.tags }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  <div class="now-back">
+    <a href="/tags/" class="post-back-link">← All topics</a>
+  </div>
+</section>
+
+{{ end }}

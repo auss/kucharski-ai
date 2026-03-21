@@ -3,7 +3,7 @@ title: "In September 2025, Chinese hackers used Claude AI to break into 30 compa
 slug: "in-september-2025-chinese-hackers-used-claude-ai-to-break-into-30-companies"
 date: 2025-12-05
 description: "They used Claude to automate the break-ins. 30 companies in one run."
-tags: ["ai-security", "cyberattack", "wake-up-call"]
+tags: ["ai-security"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7402602678062800897/"
 image: "/images/blog/hackers-claude.png"
 ---

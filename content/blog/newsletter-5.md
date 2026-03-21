@@ -3,7 +3,7 @@ title: "AI Weekly #5: $10B Infrastructure vs 95% ROI Failure"
 slug: "ai-weekly-5-10b-infrastructure-vs-95-roi-failure"
 date: 2026-01-16
 description: "$10 billion in AI infra, 95% ROI failure. The numbers are wild."
-tags: ["ai-weekly", "roi-reality", "hype-vs-data"]
+tags: ["ai-weekly", "ai-adoption"]
 linkedin: "https://www.linkedin.com/pulse/10-billion-infrastructure-boom-meets-95-roi-failure-marcin-kucharski-sipuf"
 image: "/images/blog/newsletter-5.png"
 ---

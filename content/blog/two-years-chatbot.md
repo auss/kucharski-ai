@@ -3,7 +3,7 @@ title: "Two years ago, building a production chatbot meant months of work."
 slug: "two-years-ago-building-a-production-chatbot-meant-months-of-work"
 date: 2025-11-12
 description: "Two years ago this took months. Now it takes a weekend. What happened."
-tags: ["dev-speed", "ai-tools", "before-after"]
+tags: ["developer-experience"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7381960574244573184/"
 image: "/images/blog/two-years-chatbot.png"
 ---
