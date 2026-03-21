@@ -6,6 +6,15 @@ description: "Most AI projects fail after the demo. Here is why."
 tags: ["ai-adoption"]
 linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7398978778447863809/"
 image: "/images/blog/42-percent-abandoned.png"
+faq:
+  - question: "Why do AI projects fail?"
+    answer: "AI projects fail when organizations confuse technology capability with operational readiness. Most failures stem from selecting tools before defining problems, lack of governance, and expecting probabilistic systems to deliver deterministic results."
+  - question: "What percentage of AI projects are abandoned?"
+    answer: "42% of companies abandoned their AI projects in the most recent year. Most abandonment occurs after initial pilots or demos, not because the technology failed but because organizations didn\'t resolve the collision between probabilistic AI systems and deterministic business processes."
+  - question: "How can you prevent AI project failure?"
+    answer: "Define business outcomes before selecting tools, assign clear ownership for risk and decisions, build verification and auditability into workflows, and train teams to validate and escalate AI outputs rather than trusting them blindly."
+  - question: "What is organizational AI readiness?"
+    answer: "Organizational AI readiness means having defined decision ownership, governance structures in place before incidents occur, data foundations that can support AI verification, and explicit human oversight boundaries designed into workflows."
 ---
 
 **TL;DR:** 42% of companies abandon AI projects not because of technology limitations but because of organizational failures—tools are chosen before problems are defined, governance is bolted on after incidents, and probabilistic systems are forced into deterministic processes without human oversight or accountability structures.
